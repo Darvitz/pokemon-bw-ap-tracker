@@ -63,11 +63,11 @@
         "allow_disabled": false,
         "stages": [
             {
-                "codes": "modify_logic, dont_require_flash",
+                "codes": "require_flash, require_flash_false",
                 "inherit_codes": false
             },
             {
-                "codes": "modify_logic, require_flash",
+                "codes": "require_flash, require_flash_true",
                 "inherit_codes": false
             }
         ]

@@ -1,6 +1,6 @@
-require("scripts/autotracking/item_mapping")
-require("scripts/autotracking/encounter_mapping")
-require("scripts/utils")
+ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/utils.lua")
+ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
@@ -48,14 +48,14 @@ function onClear(slot_data)
         elseif k == "goal" then
             local item = Tracker:FindObjectForCode("goal")
             local mapping = {
-                ghetsis = 0,
-                champion = 1,
-                cynthia = 2,
-                cobalion = 3,
-                tmhm_hunt = 4,
-                seven_sages_hunt = 5,
-                legendary_hunt = 6,
-                pokemon_master = 7
+                goal_ghetsis = 0,
+                goal_champion = 1,
+                goal_cynthia = 2,
+                goal_cobalion = 3,
+                goal_tmhm_hunt = 4,
+                goal_seven_sages_hunt = 5,
+                goal_legendary_hunt = 6,
+                goal_pokemon_master = 7
             }
             if mapping[v] ~= nil then
                 item.CurrentStage = mapping[v]

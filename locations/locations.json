@@ -12,11 +12,11 @@
 							"triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
                         ],
                         "visibility_rules": [
-                            "ghetsis",
-							"champion",
-							"seven_sages_hunt",
-							"legendary_hunt",
-							"pokemon_master"
+                            "goal_ghetsis",
+							"goal_champion",
+							"goal_seven_sages_hunt",
+							"goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "defeatghetsis"
                     }
@@ -38,8 +38,8 @@
                             "defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "champion",
-							"pokemon_master"
+                            "goal_champion",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "defeatchampionalder"
                     }
@@ -62,8 +62,8 @@
 							"parcel, lootsack, dragonskull, machinepart, bluecard"
                         ],
                         "visibility_rules": [
-                            "cynthia",
-							"pokemon_master"
+                            "goal_cynthia",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "defeatcynthia"
                     }
@@ -86,9 +86,9 @@
 							"parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter, light-darkstone, jetbadge, quakebadge, hm03surf, hm04strength, ^$can_flash"
                         ],
                         "visibility_rules": [
-                            "cobalion",
-							"legendary_hunt",
-							"pokemon_master"
+                            "goal_cobalion",
+							"goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatcobalion"
                     }
@@ -110,8 +110,8 @@
                             "parcel, lootsack, dragonskull, machinepart, hm01cut, hm02fly, hm03surf, hm04strength, hm05waterfall, hm06dive, ownedtms:95"
                         ],
                         "visibility_rules": [
-                            "tmhm_hunt",
-							"pokemon_master"
+                            "goal_tmhm_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "showalltmhms"
                     }
@@ -134,8 +134,8 @@
 							"parcel, lootsack, dragonskull, machinepart, bluecard, hm03surf, hm05waterfall"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsagegiallo"
                     }
@@ -157,8 +157,8 @@
                             "basementkey"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsagegorm"
                     }
@@ -181,8 +181,8 @@
 							"defeatghetsis, light-darkstone"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsagebronius"
                     }
@@ -204,8 +204,8 @@
                             "defeatghetsis, hm03surf"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsagerood"
                     }
@@ -227,8 +227,8 @@
                             "defeatghetsis, explorerkit"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsageryoku"
                     }
@@ -251,8 +251,8 @@
 							"defeatghetsis, light-darkstone"
                         ],
                         "visibility_rules": [
-                            "seven_sages_hunt",
-							"pokemon_master"
+                            "goal_seven_sages_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "arrestsagezinzolin"
                     }
@@ -274,8 +274,8 @@
                             "parcel, lootsack, dragonskull, libertypass"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatvictini"
                     }
@@ -297,8 +297,8 @@
                             "defeatghetsis, explorerkit"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatvolcarona"
                     }
@@ -321,8 +321,8 @@
 							"catchdefeatcobalion, triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatterrakion"
                     }
@@ -344,8 +344,8 @@
                             "catchdefeatcobalion"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatvirizion"
                     }
@@ -368,8 +368,8 @@
 							"triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchreshiramzekrom"
                     }
@@ -392,8 +392,8 @@
 							"parcel, lootsack, dragonskull, machinepart, bluecard, hm03surf"
                         ],
                         "visibility_rules": [
-                            "legendary_hunt",
-							"pokemon_master"
+                            "goal_legendary_hunt",
+							"goal_pokemon_master"
                         ],
                         "hosted_item": "catchdefeatkyurem"
                     }

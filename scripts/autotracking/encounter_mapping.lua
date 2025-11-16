@@ -1,5 +1,5 @@
 ENCOUNTER_MAPPING = {
-    ["StCity - S"] = "@Encounters/Striaton City/Surf Encounters",
+    ["StCity - S"] = "@Encounters/Striaton City/Surf Encounters",
     ["StCity - SR"] = "@Encounters/Striaton City/Surf Phenomena",
     ["StCity - F"] = "@Encounters/Striaton City/Rod Encounters",
     ["StCity - FR"] = "@Encounters/Striaton City/Rod Phenomena",
