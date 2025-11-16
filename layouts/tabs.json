@@ -1,0 +1,28 @@
+{
+    "tabs": {
+        "type": "tabbed",
+        "dock": "top",
+        "content": [
+            {
+                "title": "Goal",
+                "type": "array",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "goal"
+                    ]
+                }
+            },
+            {
+                "title": "Overworld",
+                "type": "array",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "overworld"
+                    ]
+                }
+            },
+        ]
+    }
+}
