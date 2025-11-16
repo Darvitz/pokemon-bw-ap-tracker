@@ -5,35 +5,35 @@
         "allow_disabled": false,
         "stages": [
             {
-                "codes": "goal,ghetsis",
+                "codes": "goal, goal_ghetsis",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,champion",
+                "codes": "goal, goal_champion",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,cynthia",
+                "codes": "goal, goal_cynthia",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,cobalion",
+                "codes": "goal, goal_cobalion",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,tmhm_hunt",
+                "codes": "goal, goal_tmhm_hunt",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,seven_sages_hunt",
+                "codes": "goal, goal_seven_sages_hunt",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,legendary_hunt",
+                "codes": "goal, goal_legendary_hunt",
                 "inherit_codes": false
             },
             {
-                "codes": "goal,pokemon_master",
+                "codes": "goal, goal_pokemon_master",
                 "inherit_codes": false
             }
         ]
@@ -44,15 +44,15 @@
         "allow_disabled": false,
         "stages": [
             {
-                "codes": "season_control,vanilla",
+                "codes": "season_control, season_control_vanilla",
                 "inherit_codes": false
             },
             {
-                "codes": "season_control,changeable",
+                "codes": "season_control, season_control_changeable",
                 "inherit_codes": false
             },
             {
-                "codes": "season_control,randomized",
+                "codes": "season_control, season_control_randomized",
                 "inherit_codes": false
             }
         ]
@@ -63,11 +63,11 @@
         "allow_disabled": false,
         "stages": [
             {
-                "codes": "modify_logic,dont_require_flash",
+                "codes": "modify_logic, dont_require_flash",
                 "inherit_codes": false
             },
             {
-                "codes": "modify_logic,require_flash",
+                "codes": "modify_logic, require_flash",
                 "inherit_codes": false
             }
         ]
