@@ -8,8 +8,7 @@
                     {
                         "name": "Defeat Ghetsis",
                         "access_rules": [
-                            "triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, tidalbell, light-darkstone",
-							"triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
+                            "@Victory Road Access"
                         ],
                         "visibility_rules": [
                             "goal_ghetsis",
@@ -58,8 +57,7 @@
                     {
                         "name": "Defeat Cynthia",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, machinepart, tidalbell, quakebadge, jetbadge, light-darkstone, oaksletter",
-							"parcel, lootsack, dragonskull, machinepart, bluecard"
+                            "@Undella Town Access"
                         ],
                         "visibility_rules": [
                             "goal_cynthia",
@@ -82,8 +80,7 @@
                     {
                         "name": "Catch or defeat Cobalion",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, machinepart, tidalbell, hm03surf, hm04strength, ^$can_flash",
-							"parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter, light-darkstone, jetbadge, quakebadge, hm03surf, hm04strength, ^$can_flash"
+                            "@Mistralton Cave Access,hm04strength"
                         ],
                         "visibility_rules": [
                             "goal_cobalion",
@@ -107,7 +104,7 @@
                     {
                         "name": "Show all TMs and HMs to the scientist in Castelia City",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, machinepart, hm01cut, hm02fly, hm03surf, hm04strength, hm05waterfall, hm06dive, ownedtms:95"
+                            "@Castelia City Access,@all_hms,ownedtms:95"
                         ],
                         "visibility_rules": [
                             "goal_tmhm_hunt",
@@ -130,8 +127,7 @@
                     {
                         "name": "Arrest Sage Giallo on Route 14",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, machinepart, tidalbell, quakebadge, jetbadge, light-darkstone, oaksletter, hm03surf, hm05waterfall",
-							"parcel, lootsack, dragonskull, machinepart, bluecard, hm03surf, hm05waterfall"
+                            "@Route 14 Access,hm03surf,hm05waterfall"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -154,7 +150,7 @@
                     {
                         "name": "Arrest Sage Gorm at the Dreamyard",
                         "access_rules": [
-                            "basementkey"
+                            "@Dreamyard Basement Access"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -177,8 +173,7 @@
                     {
                         "name": "Arrest Sage Bronius in Chargestone Cave",
                         "access_rules": [
-                            "defeatghetsis, tidalbell",
-							"defeatghetsis, light-darkstone"
+                            "@Chargestone Cave Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -201,7 +196,7 @@
                     {
                         "name": "Arrest Sage Rood on Route 18",
                         "access_rules": [
-                            "defeatghetsis, hm03surf"
+                            "@Route 18 Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -224,7 +219,7 @@
                     {
                         "name": "Arrest Sage Ryoku in Relic Castle",
                         "access_rules": [
-                            "defeatghetsis, explorerkit"
+                            "@Relic Castle Access,defeatghetsis,explorerkit"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -247,8 +242,7 @@
                     {
                         "name": "Arrest Sage Zinzolin in Cold Storage",
                         "access_rules": [
-                            "defeatghetsis, tidalbell",
-							"defeatghetsis, light-darkstone"
+                            "@Cold Storage Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -271,7 +265,7 @@
                     {
                         "name": "Catch or defeat Victini",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, libertypass"
+                            "@Liberty Garden Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -294,7 +288,7 @@
                     {
                         "name": "Catch or defeat Volcarona",
                         "access_rules": [
-                            "defeatghetsis, explorerkit"
+                            "@Relic Castle Access,defeatghetsis,explorerkit"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -317,8 +311,7 @@
                     {
                         "name": "Catch or defeat Terrakion",
                         "access_rules": [
-                            "catchdefeatcobalion, triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, tidalbell, light-darkstone",
-							"catchdefeatcobalion, triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
+                            "@Trial Chamber Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -341,7 +334,7 @@
                     {
                         "name": "Catch or defeat Virizion",
                         "access_rules": [
-                            "catchdefeatcobalion"
+                            "@Rumination Field Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -364,8 +357,7 @@
                     {
                         "name": "Catch Reshiram or Zekrom",
                         "access_rules": [
-                            "triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, tidalbell, light-darkstone",
-							"triobadge, basicbadge, insectbadge, boltbadge, quakebadge, jetbadge, freezebadge, legendbadge, parcel, lootsack, dragonskull, machinepart, bluecard, oaksletter"
+                            "@N's Castle Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -388,8 +380,7 @@
                     {
                         "name": "Catch or defeat Kyurem",
                         "access_rules": [
-                            "parcel, lootsack, dragonskull, machinepart, tidalbell, quakebadge, jetbadge, light-darkstone, oaksletter, hm03surf",
-							"parcel, lootsack, dragonskull, machinepart, bluecard, hm03surf"
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
