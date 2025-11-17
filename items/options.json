@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Goal",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ghetsis",
+                "img": "/images/events/goalghetsis.png",
+                "codes": "goal,goal_ghetsis",
+                "inherit_codes": false
+            },
+            {
+                "name": "Champion Alder",
+                "img": "/images/events/goalchampion.png",
+                "codes": "goal,goal_champion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cynthia",
+                "img": "/images/events/goalcynthia.png",
+                "codes": "goal,goal_cynthia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cobalion",
+                "img": "/images/events/goalcobalion.png",
+                "codes": "goal,goal_cobalion",
+                "inherit_codes": false
+            },
+            {
+                "name": "TM/HM Hunt",
+                "img": "/images/events/goaltmhms.png",
+                "codes": "goal,goal_tmhm_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seven Sages Hunt",
+                "img": "/images/events/goal7sages.png",
+                "codes": "goal,goal_seven_sages_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Legendary Hunt",
+                "img": "/images/events/victini.png",
+                "codes": "goal,goal_legendary_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pokemon Master",
+                "img": "/images/events/goalmaster.png",
+                "codes": "goal,goal_pokemon_master",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+
+        "name": "Season Control",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vanilla",
+                "img": "/images/settings/seasons_vanilla.png",
+                "codes": "season_control,season_control_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Changeable",
+                "img": "/images/settings/seasons_changeable.png",
+                "codes": "season_control,season_control_changeable",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomized",
+                "img": "/images/settings/seasons_randomized.png",
+                "codes": "season_control,season_control_randomized",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Flash Requirement",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "codes": "require_flash,require_flash_false",
+                "inherit_codes": false
+            },
+            {
+                "codes": "require_flash,require_flash_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hidden Items Requirement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomized",
+                "img": "/images/settings/dowsingmchn_false.png",
+                "codes": "require_dowsingmachn,require_dowsingmchn_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomized",
+                "img": "/images/settings/dowsingmchn_true.png",
+                "codes": "require_dowsing_mchn,require_dowsingmchn_true",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
