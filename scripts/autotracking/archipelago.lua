@@ -60,12 +60,19 @@ function onClear(slot_data)
             if mapping[v] ~= nil then
                 item.CurrentStage = mapping[v]
             end
-        elseif k == "modify_logic" then
-            local item = Tracker:FindObjectForCode("require_flash")
+         elseif k == "modify_logic" then
+            local require_flash = Tracker:FindObjectForCode("require_flash")
+            local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
             if table_contains(v, "require flash") then
-                item.CurrentStage = 1
+                require_flash.CurrentStage = 1
             else
-                item.CurrentStage = 0
+                require_flash.CurrentStage = 0
+            end
+            
+            if table_contains(v, "require dowsing machine") then
+                require_dowsingmchn.CurrentStage = 1
+            else
+                require_dowsingmchn.CurrentStage = 0
             end
         end
     end

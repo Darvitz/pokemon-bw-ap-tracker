@@ -3,9 +3,11 @@ Tracker.AllowDeferredLogicUpdate = true
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
+Tracker:AddItems("items/options.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
+ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Maps
 Tracker:AddMaps("maps/goal_ghetsis.json")
