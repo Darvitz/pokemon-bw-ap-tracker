@@ -12,6 +12,7 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 -- Maps
 Tracker:AddMaps("maps/goal_ghetsis.json")
 Tracker:AddMaps("maps/overworld.json")
+Tracker:AddMaps("maps/pokedex.json")
 
 -- Locations
 Tracker:AddLocations("locations/locations.json")
@@ -19,6 +20,7 @@ Tracker:AddLocations("locations/access.json")
 Tracker:AddLocations("locations/overworld/encounters.json")
 
 -- Layout
+Tracker:AddLayouts("layouts/pokedex.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")

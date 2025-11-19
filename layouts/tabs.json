@@ -1,11 +1,9 @@
 {
     "tabs": {
         "type": "tabbed",
-        "dock": "top",
-        "content": [
+        "tabs": [
             {
                 "title": "Goal",
-                "type": "array",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -15,7 +13,6 @@
             },
             {
                 "title": "Overworld",
-                "type": "array",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -23,6 +20,16 @@
                     ]
                 }
             },
+            {
+                "title": "Pokédex",
+                "content": {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "pokedex_grid"
+                    }
+                }
+            }
         ]
     }
 }
