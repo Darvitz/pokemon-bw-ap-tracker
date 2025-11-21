@@ -61,9 +61,17 @@ function onClear(slot_data)
             if mapping[v] ~= nil then
                 item.CurrentStage = mapping[v]
             end
-         elseif k == "modify_logic" then
+        elseif k == "randomize_trainer_pokemon" then
+            local randomize_trainers = Tracker:FindObjectForCode("randomize_trainers")
+            if table_contains(v, "randomize") then
+                randomize_trainers.CurrentStage = 1
+            else
+                randomize_trainers.CurrentStage = 0
+            end
+        elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
             local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
+			local keyitem_priority = Tracker:FindObjectForCode("keyitem_priority")
             if table_contains(v, "require flash") then
                 require_flash.CurrentStage = 1
             else
@@ -75,13 +83,21 @@ function onClear(slot_data)
             else
                 require_dowsingmchn.CurrentStage = 0
             end
-         elseif k == "version" then
+			
+			if table_contains(v, "prioritize key item locations") then
+                keyitem_priority.CurrentStage = 1
+            else
+                keyitem_priority.CurrentStage = 0
+            end
+        elseif k == "version" then
             local game_version = Tracker:FindObjectForCode("game_version")
             if v == "white" then
                 game_version.CurrentStage = 1
             else
                 game_version.CurrentStage = 0
             end
+        elseif k == "dexsanity" then
+            Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
         end
     end
 end

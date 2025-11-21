@@ -4,6 +4,7 @@ Tracker.AllowDeferredLogicUpdate = true
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/options.json")
+Tracker:AddItems("items/pokemon.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
@@ -17,6 +18,7 @@ Tracker:AddMaps("maps/pokedex.json")
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/access.json")
+Tracker:AddLocations("locations/pokedex.json")
 Tracker:AddLocations("locations/overworld/encounters.json")
 
 -- Layout
