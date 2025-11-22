@@ -25,7 +25,7 @@
     },
     {
         "name": "unovadex",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/unovadex.png"
     }
