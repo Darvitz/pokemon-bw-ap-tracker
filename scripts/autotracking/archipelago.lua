@@ -35,6 +35,13 @@ function onClear(slot_data)
             end
         end
     end
+    
+    -- reset dexsanity items
+    for i = 1, 649 do
+        Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = false
+        Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
+        Tracker:FindObjectForCode("caught__" .. i).Active = false
+    end
 
     for k, v in pairs(slot_data.options) do
         if k == "season_control" then

@@ -5,6 +5,8 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokemon.json")
+Tracker:AddItems("items/dexsanity_visibility.json")
+Tracker:AddItems("items/dexsanity_sent.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
