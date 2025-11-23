@@ -35,7 +35,7 @@ function onClear(slot_data)
             end
         end
     end
-    
+
     -- reset dexsanity items
     for i = 1, 649 do
         Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = false
@@ -68,12 +68,16 @@ function onClear(slot_data)
             if mapping[v] ~= nil then
                 item.CurrentStage = mapping[v]
             end
-        elseif k == "randomize_trainer_pokemon" then
-            local randomize_trainers = Tracker:FindObjectForCode("randomize_trainers")
-            if table_contains(v, "randomize") then
-                randomize_trainers.CurrentStage = 1
-            else
-                randomize_trainers.CurrentStage = 0
+        elseif k == "shuffle_badges" then
+            local item = Tracker:FindObjectForCode("shuffle_badges")
+            if v == "vanilla" then
+                item.CurrentStage = 0
+            elseif v == "shuffle" then
+                item.CurrentStage = 1
+            elseif v == "any_badge" then
+                item.CurrentStage = 2
+            elseif v == "anything" then
+                item.CurrentStage = 3
             end
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
