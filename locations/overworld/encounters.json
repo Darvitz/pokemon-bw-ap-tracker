@@ -153,7 +153,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -166,7 +166,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|spring"
+                            "hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -179,7 +179,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|spring"
+                            "triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -192,7 +192,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|spring"
+                            "superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -205,7 +205,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|spring"
+                            "triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -218,7 +218,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -231,7 +231,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -244,7 +244,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|summer"
+                            "triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -257,7 +257,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|summer"
+                            "superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -270,7 +270,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|summer"
+                            "triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -283,7 +283,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -296,7 +296,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -309,7 +309,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|autumn"
+                            "triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -322,7 +322,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|autumn"
+                            "superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -335,7 +335,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|autumn"
+                            "triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -348,7 +348,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|winter"
+                            "hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -361,7 +361,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|winter"
+                            "triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -374,7 +374,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|winter"
+                            "superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -387,7 +387,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|winter"
+                            "triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -874,7 +874,7 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -887,7 +887,7 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -900,7 +900,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -913,7 +913,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|spring"
+                            "hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -926,7 +926,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|spring"
+                            "triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -939,7 +939,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|spring"
+                            "superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -952,7 +952,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|spring"
+                            "triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -965,7 +965,7 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -978,7 +978,7 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -991,7 +991,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1004,7 +1004,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1017,7 +1017,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|summer"
+                            "triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1030,7 +1030,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|summer"
+                            "superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1043,7 +1043,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|summer"
+                            "triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1056,7 +1056,7 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1069,7 +1069,7 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1082,7 +1082,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1095,7 +1095,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1108,7 +1108,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|autumn"
+                            "triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1121,7 +1121,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|autumn"
+                            "superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1134,7 +1134,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|autumn"
+                            "triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1147,7 +1147,7 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1160,7 +1160,7 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1173,7 +1173,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1186,7 +1186,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|winter"
+                            "hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1199,7 +1199,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|winter"
+                            "triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1212,7 +1212,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|winter"
+                            "superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1225,7 +1225,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|winter"
+                            "triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1253,7 +1253,7 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1266,7 +1266,7 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1279,7 +1279,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1292,7 +1292,7 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1305,7 +1305,7 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1318,7 +1318,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1331,7 +1331,7 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1344,7 +1344,7 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1357,7 +1357,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1370,7 +1370,7 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1383,7 +1383,7 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1396,7 +1396,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1424,7 +1424,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1437,7 +1437,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|spring"
+                            "hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1450,7 +1450,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|spring"
+                            "triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1463,7 +1463,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|spring"
+                            "superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1476,7 +1476,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|spring"
+                            "triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -1489,7 +1489,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1502,7 +1502,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1515,7 +1515,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|summer"
+                            "triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1528,7 +1528,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|summer"
+                            "superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1541,7 +1541,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|summer"
+                            "triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1554,7 +1554,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1567,7 +1567,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -1580,7 +1580,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|autumn"
+                            "triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1593,7 +1593,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|autumn"
+                            "superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1606,7 +1606,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|autumn"
+                            "triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -1619,7 +1619,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|winter"
+                            "hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1632,7 +1632,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|winter"
+                            "triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1645,7 +1645,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|winter"
+                            "superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -1658,7 +1658,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|winter"
+                            "triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -3705,7 +3705,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3718,7 +3718,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3730,7 +3730,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3743,7 +3743,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3755,7 +3755,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3768,7 +3768,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3780,7 +3780,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3793,7 +3793,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|spring"
+                            "triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -3805,7 +3805,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3818,7 +3818,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3830,7 +3830,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3843,7 +3843,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3855,7 +3855,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3868,7 +3868,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3880,7 +3880,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3893,7 +3893,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|summer"
+                            "triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -3905,7 +3905,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3918,7 +3918,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3930,7 +3930,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3943,7 +3943,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3955,7 +3955,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3968,7 +3968,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3980,7 +3980,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -3993,7 +3993,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|autumn"
+                            "triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4005,7 +4005,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4018,7 +4018,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4030,7 +4030,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4043,7 +4043,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4055,7 +4055,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4068,7 +4068,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4080,7 +4080,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|winter"
+                            "^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4093,7 +4093,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,$season|winter"
+                            "triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4121,7 +4121,7 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,$season|spring"
+                            "@Dragonspiral Tower Entrance Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4134,7 +4134,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,$season|spring"
+                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4147,7 +4147,7 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4160,7 +4160,7 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4173,7 +4173,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4186,7 +4186,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4199,7 +4199,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4212,7 +4212,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4225,7 +4225,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,$season|spring"
+                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4238,7 +4238,7 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,$season|summer"
+                            "@Dragonspiral Tower Entrance Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4251,7 +4251,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,$season|summer"
+                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4264,7 +4264,7 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4277,7 +4277,7 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4290,7 +4290,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4303,7 +4303,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4316,7 +4316,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4329,7 +4329,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4342,7 +4342,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,$season|summer"
+                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4355,7 +4355,7 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4368,7 +4368,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4381,7 +4381,7 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4394,7 +4394,7 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4407,7 +4407,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4420,7 +4420,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4433,7 +4433,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4446,7 +4446,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4459,7 +4459,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4472,7 +4472,7 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,$season|winter"
+                            "@Dragonspiral Tower Entrance Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4485,7 +4485,7 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,$season|winter"
+                            "@Dragonspiral Tower Entrance Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4498,7 +4498,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,$season|winter"
+                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4511,7 +4511,7 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4524,7 +4524,7 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4537,7 +4537,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4550,7 +4550,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4563,7 +4563,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4576,7 +4576,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4589,7 +4589,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,$season|winter"
+                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4643,7 +4643,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|spring"
+                            "^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4656,7 +4656,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|spring"
+                            "hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4669,7 +4669,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|spring"
+                            "triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4682,7 +4682,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|spring"
+                            "superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4695,7 +4695,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|spring"
+                            "triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -4708,7 +4708,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|summer"
+                            "^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4721,7 +4721,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4734,7 +4734,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|summer"
+                            "triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4747,7 +4747,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|summer"
+                            "superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4760,7 +4760,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|summer"
+                            "triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4773,7 +4773,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "$season|autumn"
+                            "^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4786,7 +4786,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -4799,7 +4799,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|autumn"
+                            "triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4812,7 +4812,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|autumn"
+                            "superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4825,7 +4825,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|autumn"
+                            "triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -4838,7 +4838,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|winter"
+                            "hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4851,7 +4851,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|winter"
+                            "triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4864,7 +4864,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|winter"
+                            "superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -4877,7 +4877,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|winter"
+                            "triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -5963,7 +5963,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|spring"
+                            "hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -5976,7 +5976,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|spring"
+                            "triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -5989,7 +5989,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|spring"
+                            "superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -6002,7 +6002,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|spring"
+                            "triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             ""
@@ -6015,7 +6015,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -6028,7 +6028,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|summer"
+                            "triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -6041,7 +6041,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|summer"
+                            "superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -6054,7 +6054,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|summer"
+                            "triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -6067,7 +6067,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|summer"
+                            "hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             ""
@@ -6080,7 +6080,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|autumn"
+                            "triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -6093,7 +6093,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|autumn"
+                            "superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -6106,7 +6106,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|autumn"
+                            "triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             ""
@@ -6119,7 +6119,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "hm03surf,$season|winter"
+                            "hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -6132,7 +6132,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,hm03surf,$season|winter"
+                            "triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -6145,7 +6145,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "superrod,$season|winter"
+                            "superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
@@ -6158,7 +6158,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": true,
                         "access_rules": [
-                            "triobadge,superrod,$season|winter"
+                            "triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             ""
