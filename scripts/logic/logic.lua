@@ -43,3 +43,7 @@ function hidden()
         return has("dowsingmchn") and AccessibilityLevel.Normal or AccessibilityLevel.SequenceBreak
     end
 end
+
+function scout()
+  return AccessibilityLevel.Inspect
+end

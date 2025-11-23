@@ -1,5 +1,5 @@
 [
-{       "name": "ZDexsanity",
+{       "name": "Z_Dexsanity",
         "children": [
 {"name": "Bulbasaur", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_1", "sections": [{"hosted_item": "dexsanity_sent_1"}], "map_locations": [{"map": "kantodex", "x": 72, "y": 72, "shape": "diamond"}]},
 {"name": "Ivysaur", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_2", "sections": [{"hosted_item": "dexsanity_sent_2"}], "map_locations": [{"map": "kantodex", "x": 168, "y": 72, "shape": "diamond"}]},
@@ -151,7 +151,7 @@
 {"name": "Dragonair", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_148", "sections": [{"hosted_item": "dexsanity_sent_148"}], "map_locations": [{"map": "kantodex", "x": 360, "y": 1224, "shape": "diamond"}]},
 {"name": "Dragonite", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_149", "sections": [{"hosted_item": "dexsanity_sent_149"}], "map_locations": [{"map": "kantodex", "x": 456, "y": 1224, "shape": "diamond"}]},
 {"name": "Mewtwo", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_150", "sections": [{"hosted_item": "dexsanity_sent_150"}], "map_locations": [{"map": "kantodex", "x": 552, "y": 1224, "shape": "diamond"}]},
-{"name": "Mew", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_151", "sections": [{"hosted_item": "dexsanity_sent_151"}], "map_locations": [{"map": "kantodex", "x": 648, "y": 1224, "shape": "diamond"}]}
+{"name": "Mew", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_151", "sections": [{"hosted_item": "dexsanity_sent_151"}], "map_locations": [{"map": "kantodex", "x": 648, "y": 1224, "shape": "diamond"}]},
 {"name": "Chikorita", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_152", "sections": [{"hosted_item": "dexsanity_sent_152"}], "map_locations": [{"map": "johtodex", "x": 72, "y": 72, "shape": "diamond"}]},
 {"name": "Bayleef", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_153", "sections": [{"hosted_item": "dexsanity_sent_153"}], "map_locations": [{"map": "johtodex", "x": 168, "y": 72, "shape": "diamond"}]},
 {"name": "Meganium", "access_rules": ["^$scout"], "visibility_rules": "dexsanity_visibility_154", "sections": [{"hosted_item": "dexsanity_sent_154"}], "map_locations": [{"map": "johtodex", "x": 264, "y": 72, "shape": "diamond"}]},

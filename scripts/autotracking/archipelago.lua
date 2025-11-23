@@ -40,7 +40,7 @@ function onClear(slot_data)
     for i = 1, 649 do
         Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = false
         Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
-        Tracker:FindObjectForCode("caught__" .. i).Active = false
+        Tracker:FindObjectForCode("caught_" .. i).Active = false
     end
 
     for k, v in pairs(slot_data.options) do
@@ -109,6 +109,14 @@ function onClear(slot_data)
             end
         elseif k == "dexsanity" then
             Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
+        end
+    end
+    
+    for k, v in pairs(slot_data) do
+        if k == "dexsanity_pokemon" then
+            for _, pokeID in ipairs(v) do
+                Tracker:FindObjectForCode("dexsanity_visibility_" .. pokeID).Active = true
+            end
         end
     end
 end
