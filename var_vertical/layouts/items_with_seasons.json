@@ -70,6 +70,17 @@
             ]
         ]
     },
+    "quicksettings_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 32",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "encounter_tracking"
+            ]
+        ]
+    },
     "items_tracker": {
         "type": "array",
         "orientation": "vertical",
@@ -96,6 +107,14 @@
                 "content": {
                     "type": "layout",
                     "key": "seasons_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Quick Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "quicksettings_grid"
                 }
             }
         ]

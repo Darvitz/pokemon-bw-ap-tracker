@@ -108,21 +108,15 @@
         "codes": "catchdefeatvolcarona"
     },
     {
-        "name": "Show your TM/HM-Collection to the Scientist",
-        "type": "toggle",
-        "img": "/images/events/volcarona.png",
-        "codes": "turnintmhmcollection"
-    },
-    {
         "name": "Defeat Gym Leader Brycen",
         "type": "toggle",
-        "img": "/images/events/volcarona.png",
+        "img": "/images/events/brycen.png",
         "codes": "defeatbrycen"
     },
     {
         "name": "Help the Daycare Man",
         "type": "toggle",
-        "img": "/images/events/volcarona.png",
+        "img": "/images/events/oldman.png",
         "codes": "helpdaycareman"
     }
 ]
