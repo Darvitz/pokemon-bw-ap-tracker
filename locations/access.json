@@ -385,7 +385,7 @@
   {
     "name": "N's Castle Access",
     "access_rules": [
-      "@Pokémon League Access,defeat_e4"
+      "@Pokémon League Access"
     ]
   },
   {
