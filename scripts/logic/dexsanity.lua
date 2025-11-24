@@ -1,6 +1,6 @@
 function levelup(value)
     local in_vanilla_east = 0
-    if has("wild_levels_vanilla") then
+    if not has("adjustlevels_wilds") then
         in_vanilla_east = Tracker:FindObjectForCode("@Route 15 Access").AccessibilityLevel
     end
     local region_3 = Tracker:FindObjectForCode("@Pinwheel Forest Outside Access").AccessibilityLevel
