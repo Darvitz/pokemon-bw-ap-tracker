@@ -16,7 +16,7 @@ FLAG_EVENT_CODES = {
     "catchdefeatterrakion",
     "catchdefeatvirizion",
     "defeatchampionalder",
-    "turnintmhmcollection",
+    "showalltmhms",
     "defeatbrycen",
     "helpdaycareman"
 }

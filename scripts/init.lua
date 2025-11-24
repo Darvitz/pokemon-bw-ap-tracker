@@ -38,3 +38,4 @@ ScriptHost:LoadScript("scripts/autotracking.lua")
 -- Watches
 ScriptHost:AddWatchForCode("goal", "goal", toggle_goal)
 ScriptHost:AddWatchForCode("season_control", "season_control", toggle_seasons)
+ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)

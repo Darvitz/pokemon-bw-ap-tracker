@@ -1,4 +1,5 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
@@ -30,6 +31,8 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     CAUGHT = {}
     SEEN = {}
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
@@ -152,11 +155,11 @@ function onClear(slot_data)
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
 
-        POKE_CAUGHT_ID="pokemon_bw_caught_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        POKE_CAUGHT_ID="pokemon_bw_caught_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({POKE_CAUGHT_ID})
         Archipelago:Get({POKE_CAUGHT_ID})
         
-        POKE_SEEN_ID="pokemon_bw_seen_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        POKE_SEEN_ID="pokemon_bw_seen_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({POKE_SEEN_ID})
         Archipelago:Get({POKE_SEEN_ID})
     end
@@ -235,6 +238,27 @@ function onItem(index, item_id, item_name, player_number)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find object for code %s", code))
         end
+    end
+end
+
+-- called when a location gets cleared
+function onLocation(location_id, location_name)
+    local v = LOCATION_MAPPING[location_id]
+    -- if not v then
+    --     print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    -- end
+    
+    local obj = Tracker:FindObjectForCode(v)
+    if obj then
+    	if v:sub(1, 1) == "@" then
+    		obj.AvailableChestCount = obj.AvailableChestCount - 1
+    	elseif obj.Type == "progressive" then
+    		obj.CurrentStage = obj.CurrentStage + 1
+    	else
+    		obj.Active = true
+    	end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    	print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
 
