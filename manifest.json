@@ -1,9 +1,9 @@
 {
     "name": "Pokémon Black and White Archipelago",
     "game_name": "Pokémon Black and White",
-    "package_version": "0.0.4",
-    "min_poptracker_version": "0.29.0",
-    "package_uid": "pokemon bw_ap",
+    "package_version": "1.0.0",
+    "min_poptracker_version": "0.32.1",
+    "package_uid": "ap_pokemon_bw",
     "author": "RadisNoir & palex00",
     "variants": {
         "standard": {
@@ -15,5 +15,5 @@
             "flags": ["ap"]
         }
     }
-    , "versions_url": "no"
+    , "versions_url": "https://raw.githubusercontent.com/Radis7Noir/pokemon-bw-ap-tracker/versions/versions.json"
 }
