@@ -11,6 +11,7 @@ Tracker:AddItems("items/dexsanity_sent.json")
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/dexsanity.lua")
 
 -- Maps
 Tracker:AddMaps("maps/goal_ghetsis.json")
