@@ -209,7 +209,7 @@
         "name": "Encounter Tracking",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 3,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
