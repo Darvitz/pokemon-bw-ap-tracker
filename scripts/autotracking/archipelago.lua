@@ -127,6 +127,17 @@ function onClear(slot_data)
             else
                 keyitem_priority.CurrentStage = 0
             end
+        elseif k == "adjust_levels" then
+            local adjustlevels = Tracker:FindObjectForCode("adjustlevels")
+            if table_contains(v, "wild") and table_contains(v, "trainer") then
+                adjustlevels.CurrentStage = 1
+		    elseif table_contains(v, "wild") then
+                adjustlevels.CurrentStage = 2
+			elseif table_contains(v, "trainer") then
+                adjustlevels.CurrentStage = 3
+            else
+                adjustlevels.CurrentStage = 0
+            end
         elseif k == "version" then
             local game_version = Tracker:FindObjectForCode("game_version")
             if v == "white" then

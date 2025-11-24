@@ -53,7 +53,8 @@
             [
                 "keyitem_priority",
 				"require_dowsingmchn",
-				"require_flash"
+				"require_flash",
+				"adjustlevels"
             ]
         ]
     }

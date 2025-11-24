@@ -206,6 +206,38 @@
         ]
     },
     {
+        "name": "Adjust Levels",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Adjust Levels - OFF",
+                "img": "/images/settings/adjustlevels_off.png",
+                "codes": "adjustlevels,adjustlevels_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Wilds & Trainers",
+                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "codes": "adjustlevels,adjustlevels_wilds_trainers",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Wilds",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "codes": "adjustlevels,adjustlevels_wilds",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Trainers",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "codes": "adjustlevels,adjustlevels_trainers",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Encounter Tracking",
         "type": "progressive",
         "loop": true,
