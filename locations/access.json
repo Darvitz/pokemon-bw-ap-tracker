@@ -118,14 +118,14 @@
     "name": "Pinwheel Forest Inner Access",
     "access_rules": [
       "@Pinwheel Forest Outside Access,lootsack",
-      "@Pinwheel Forest Inner East Side Access,old_man_saved",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman",
       "@Skyarrow Bridge Access,dragonskull"
     ]
   },
   {
     "name": "Pinwheel Forest Inner East Side Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,old_man_saved",
+      "@Pinwheel Forest Inner Access,helpdaycareman",
       "@Rumination Field Access,catchdefeat_cobalion"
     ]
   },
@@ -295,20 +295,20 @@
     "name": "Dragonspiral Tower Outside Access",
     "access_rules": [
       "@Dragonspiral Tower Entrance Access",
-      "@Dragonspiral Tower Access,defeat_brycen",
-      "@Dragonspiral Tower Outside East Access,defeat_brycen,hm03surf"
+      "@Dragonspiral Tower Access,defeatbrycen",
+      "@Dragonspiral Tower Outside East Access,defeatbrycen,hm03surf"
     ]
   },
   {
     "name": "Dragonspiral Tower Outside East Access",
     "access_rules": [
-      "@Dragonspiral Tower Outside Access,defeat_brycen,hm03surf"
+      "@Dragonspiral Tower Outside Access,defeatbrycen,hm03surf"
     ]
   },
   {
     "name": "Dragonspiral Tower Access",
     "access_rules": [
-      "@Dragonspiral Tower Outside Access,defeat_brycen"
+      "@Dragonspiral Tower Outside Access,defeatbrycen"
     ]
   },
   {
