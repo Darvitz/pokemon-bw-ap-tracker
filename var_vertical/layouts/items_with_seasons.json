@@ -56,6 +56,21 @@
         ]
 		
     },
+    "events_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 32",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "helpdaycareman",
+				"defeatbrycen",
+				"catchdefeatcobalion",
+				"defeatghetsis"
+				
+            ]
+        ]
+    },
     "seasons_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
@@ -107,6 +122,14 @@
                 "content": {
                     "type": "layout",
                     "key": "seasons_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Events",
+                "content": {
+                    "type": "layout",
+                    "key": "events_grid"
                 }
             },
             {

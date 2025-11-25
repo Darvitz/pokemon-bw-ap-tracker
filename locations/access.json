@@ -365,14 +365,14 @@
     "name": "Victory Road Access",
     "access_rules": [
       "@Route 10 Access,@all_badges",
-	  "@Trial Chamber Access,defeatcatch_cobalion",
+	  "@Trial Chamber Access,catchdefeatcobalion",
       "@Pokémon League Access"
     ]
   },
   {
     "name": "Trial Chamber Access",
     "access_rules": [
-      "@Victory Road Access,hm04strength,defeatcatch_cobalion"
+      "@Victory Road Access,hm04strength,catchdefeatcobalion"
     ]
   },
   {

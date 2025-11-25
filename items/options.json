@@ -265,7 +265,7 @@
             },
             {
                 "name": "Encounter Tracking - Mark off caught and not dexsanity",
-                "img": "/images/settings/encounter_tracking_loose.png",
+                "img": "/images/settings/encounter_tracking_loose2.png",
                 "codes": "encounter_tracking, encounter_tracking_minimal",
                 "inherit_codes": false
             }

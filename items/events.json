@@ -1,24 +1,24 @@
 [
     {
-        "name": "Defeat Ghetsis",
+        "name": "Defeat Ghetsis in N's Castle",
         "type": "toggle",
         "img": "/images/events/goalghetsis.png",
         "codes": "defeatghetsis"
     },
     {
-        "name": "Defeat Champion Alder",
+        "name": "Defeat Champion Alder at the Pokémon League",
         "type": "toggle",
         "img": "/images/events/goalchampion.png",
         "codes": "defeatchampionalder"
     },
     {
-        "name": "Defeat Cynthia",
+        "name": "Defeat Cynthia in Undella Town",
         "type": "toggle",
         "img": "/images/events/goalcynthia.png",
         "codes": "defeatcynthia"
     },
     {
-        "name": "Catch or defeat Cobalion",
+        "name": "Catch or defeat Cobalion in Guidance Chamber",
         "type": "toggle",
         "img": "/images/events/goalcobalion.png",
         "codes": "catchdefeatcobalion"
@@ -66,55 +66,49 @@
         "codes": "arrestsagebronius"
     },
     {
-        "name": "Catch or defeat Victini",
+        "name": "Catch or defeat Victini at Liberty Garden",
         "type": "toggle",
         "img": "/images/events/victini.png",
         "codes": "catchdefeatvictini"
     },
     {
-        "name": "Catch Reshiram or Zekrom",
+        "name": "Catch Reshiram or Zekrom in N's Castle",
         "type": "toggle",
         "img": "/images/events/zeshiram.png",
         "codes": "catchreshiramzekrom"
     },
     {
-        "name": "Catch or defeat Cobalion",
-        "type": "toggle",
-        "img": "/images/events/goallegendhunt.png",
-        "codes": "catchdefeatcobalion"
-    },
-    {
-        "name": "Catch or defeat Terrakion",
+        "name": "Catch or defeat Terrakion in Trial Chamber",
         "type": "toggle",
         "img": "/images/events/terrakion.png",
         "codes": "catchdefeatterrakion"
     },
     {
-        "name": "Catch or defeat Virizion",
+        "name": "Catch or defeat Virizion in Rumination Field",
         "type": "toggle",
         "img": "/images/events/virizion.png",
         "codes": "catchdefeatvirizion"
     },
     {
-        "name": "Catch or deafeat Kyurem",
+        "name": "Catch or deafeat Kyurem at the Giant Chasm",
         "type": "toggle",
         "img": "/images/events/kyurem.png",
         "codes": "catchdefeatkyurem"
     },
     {
-        "name": "Catch or defeat Volcarona",
+        "name": "Catch or defeat Volcarona in Relic Castle",
         "type": "toggle",
         "img": "/images/events/volcarona.png",
         "codes": "catchdefeatvolcarona"
     },
     {
-        "name": "Defeat Gym Leader Brycen",
+        "name": "Defeat Gym Leader Brycen in Icirrus City",
         "type": "toggle",
         "img": "/images/events/brycen.png",
         "codes": "defeatbrycen"
     },
     {
-        "name": "Help the Daycare Man",
+        "name": "Help the Daycare old man in Nimbasa City",
         "type": "toggle",
         "img": "/images/events/oldman.png",
         "codes": "helpdaycareman"
