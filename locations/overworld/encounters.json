@@ -3701,6 +3701,7 @@
                 "sections": [
                     {
                         "name": "Upper Level - Land Encounters (Spring)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3726,6 +3727,7 @@
                     },
                     {
                         "name": "Middle Level - Land Encounters (Spring)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3751,6 +3753,7 @@
                     },
                     {
                         "name": "Lower Level - Land Encounters (Spring)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3776,6 +3779,7 @@
                     },
                     {
                         "name": "Ice Rock Chamber - Land Encounters (Spring)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3801,6 +3805,7 @@
                     },
                     {
                         "name": "Upper Level - Land Encounters (Summer)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3826,6 +3831,7 @@
                     },
                     {
                         "name": "Middle Level - Land Encounters (Summer)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3851,6 +3857,7 @@
                     },
                     {
                         "name": "Lower Level - Land Encounters (Summer)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3876,6 +3883,7 @@
                     },
                     {
                         "name": "Ice Rock Chamber - Land Encounters (Summer)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3901,6 +3909,7 @@
                     },
                     {
                         "name": "Upper Level - Land Encounters (Autumn)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3926,6 +3935,7 @@
                     },
                     {
                         "name": "Middle Level - Land Encounters (Autumn)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3951,6 +3961,7 @@
                     },
                     {
                         "name": "Lower Level - Land Encounters (Autumn)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -3976,6 +3987,7 @@
                     },
                     {
                         "name": "Ice Rock Chamber - Land Encounters (Autumn)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -4001,6 +4013,7 @@
                     },
                     {
                         "name": "Upper Level - Land Encounters (Winter)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -4026,6 +4039,7 @@
                     },
                     {
                         "name": "Middle Level - Land Encounters (Winter)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -4051,6 +4065,7 @@
                     },
                     {
                         "name": "Lower Level - Land Encounters (Winter)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
@@ -4076,6 +4091,7 @@
                     },
                     {
                         "name": "Ice Rock Chamber - Land Encounters (Winter)",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
