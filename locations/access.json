@@ -126,13 +126,13 @@
     "name": "Pinwheel Forest Inner East Side Access",
     "access_rules": [
       "@Pinwheel Forest Inner Access,helpdaycareman",
-      "@Rumination Field Access,catchdefeat_cobalion"
+      "@Rumination Field Access,catchdefeatcobalion"
     ]
   },
   {
     "name": "Rumination Field Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,catchdefeat_cobalion"
+      "@Pinwheel Forest Inner East Side Access,catchdefeatcobalion"
     ]
   },
   {
