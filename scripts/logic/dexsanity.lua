@@ -91,5 +91,10 @@ function evolve_area(area)
 end
 
 function evolve_move()
-    return AccessibilityLevel.Normal
+    local move_relearner = Tracker:FindObjectForCode("@Mistralton City Access").AccessibilityLevel
+	if move_relearner then
+        return move_relearner
+	else
+	    return AccessibilityLevel.SequenceBreak
+    end
 end
