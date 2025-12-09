@@ -3,7 +3,8 @@
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32, 48",
-        "h_alignment": "left",
+        "h_alignment": "center",
+        "v_alignment": "center",
         "rows": [
             [
                 "triobadge",
@@ -21,7 +22,8 @@
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32, 32",
-        "h_alignment": "left",
+        "h_alignment": "center",
+        "v_alignment": "center",
         "rows": [
             [
                 "hm01cut",
@@ -56,35 +58,23 @@
         ]
 		
     },
-    "seasons_grid": {
-        "type": "itemgrid",
-        "item_margin": "2, 2",
-        "item_size": "32, 32",
-        "h_alignment": "left",
-        "rows": [
-            [
-                "spring",
-                "summer"
-			],
-			[
-                "autumn",
-                "winter"
-            ]
-        ]
-    },
     "events_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32, 32",
-        "h_alignment": "left",
+        "h_alignment": "center",
+        "v_alignment": "center",
         "rows": [
             [
-                "helpdaycareman",
-				"defeatbrycen"
-				
+                "helpdaycareman"
             ],
+            [
+                "defeatbrycen"
+			],
+            [
+                "catchdefeatcobalion"
+			],
 			[
-				"catchdefeatcobalion",
 				"defeatghetsis"
             ]
         ]
@@ -93,7 +83,8 @@
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32, 32",
-        "h_alignment": "left",
+        "h_alignment": "center",
+        "v_alignment": "center",
         "rows": [
             [
                 "encounter_tracking"

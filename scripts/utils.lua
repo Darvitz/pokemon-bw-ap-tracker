@@ -58,12 +58,14 @@ function toggle_goal()
 	end
 end
 
-function toggle_seasons()
-    if has("season_control_vanilla") then
-        Tracker:AddLayouts("layouts/items.json")
-    elseif has("season_control_changeable") then
-        Tracker:AddLayouts("layouts/items.json")
-	elseif has("season_control_randomized") then
-        Tracker:AddLayouts("layouts/items_with_seasons.json")
-	end
+function toggle_itemgrid()    
+    local suffix = ""
+    if has("season_control_randomized") then
+        suffix = suffix .. "_seasons"
+    end
+    if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
+        suffix = suffix .. "_fossils"
+    end
+        
+    Tracker:AddLayouts("layouts/items"..suffix..".json")
 end

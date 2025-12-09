@@ -78,10 +78,10 @@
         "codes": "hm05waterfall"
     },
     {
-    "name": "HM06 Dive",
-    "type": "toggle",
-    "img": "/images/items/hms/hm06_dive.png",
-    "codes": "hm06dive"
+        "name": "HM06 Dive",
+        "type": "toggle",
+        "img": "/images/items/hms/hm06_dive.png",
+        "codes": "hm06dive"
     },
     {
         "name": "TM70 Flash",
@@ -202,6 +202,60 @@
         "type": "toggle",
         "img": "/images/items/roadblocks/liberty_pass.png",
         "codes": "libertypass"
+    },
+	{
+        "name": "Helix Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/helixfossil.png",
+        "codes": "helixfossil"
+    },
+	{
+        "name": "Dome Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/domefossil.png",
+        "codes": "domefossil"
+    },
+	{
+        "name": "Old Amber",
+        "type": "toggle",
+        "img": "/images/items/fossils/oldamber.png",
+        "codes": "oldamber"
+    },
+	{
+        "name": "Root Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/rootfossil.png",
+        "codes": "rootfossil"
+    },
+	{
+        "name": "Claw Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/clawfossil.png",
+        "codes": "clawfossil"
+    },
+	{
+        "name": "Skull Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/skullfossil.png",
+        "codes": "skullfossil"
+    },
+	{
+        "name": "Armor Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/armorfossil.png",
+        "codes": "armorfossil"
+    },
+	{
+        "name": "Cover Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/coverfossil.png",
+        "codes": "coverfossil"
+    },
+	{
+        "name": "Plume Fossil",
+        "type": "toggle",
+        "img": "/images/items/fossils/plumefossil.png",
+        "codes": "plumefossil"
     },
     {
         "name": "Spring",

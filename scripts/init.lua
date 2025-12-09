@@ -38,5 +38,6 @@ ScriptHost:LoadScript("scripts/autotracking.lua")
 
 -- Watches
 ScriptHost:AddWatchForCode("goal", "goal", toggle_goal)
-ScriptHost:AddWatchForCode("season_control", "season_control", toggle_seasons)
+ScriptHost:AddWatchForCode("season_control_randomized", "season_control_randomized", toggle_itemgrid)
+ScriptHost:AddWatchForCode("dexsanity", "dexsanity", toggle_itemgrid)
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
