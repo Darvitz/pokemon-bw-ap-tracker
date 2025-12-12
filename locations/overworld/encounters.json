@@ -6290,6 +6290,16 @@
                         ]
                     },
                     {
+                        "name": "Kyrurem's Cave - Kyurem (Static)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_646"
+                        ],
+						"hosted_item": "caught_646"
+                    },
+                    {
                         "name": "Kyurem's Cave - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
