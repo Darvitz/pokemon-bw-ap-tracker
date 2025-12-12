@@ -53,22 +53,26 @@
 				"redchain",
 				"gram",
 				"dowsingmchn",
-				"superrod",
-				"ragecandybar"
-		    ],
-			[
-				"helixfossil",
-				"domefossil",
-				"oldamber",
-				"rootfossil",
-				"clawfossil",
-				"skullfossil",
-				"armorfossil",
-				"coverfossil",
-				"plumefossil"
+				"superrod"
 		    ]
         ]
 		
+    },
+    "seasons_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 32",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "rows": [
+            [
+                "spring",
+				"summer",
+				"autumn",
+				"winter"
+				
+			]
+        ]
     },
     "events_grid": {
         "type": "itemgrid",
@@ -78,15 +82,9 @@
         "v_alignment": "center",
         "rows": [
             [
-                "helpdaycareman"
-            ],
-            [
-                "defeatbrycen"
-			],
-            [
-                "catchdefeatcobalion"
-			],
-			[
+                "helpdaycareman",
+				"defeatbrycen",
+				"catchdefeatcobalion",
 				"defeatghetsis"
             ]
         ]
@@ -95,7 +93,7 @@
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32, 32",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "v_alignment": "center",
         "rows": [
             [
@@ -105,7 +103,7 @@
     },
     "items_tracker": {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "content": [
             {
                 "type": "group",
@@ -125,6 +123,14 @@
             },
             {
                 "type": "group",
+                "header": "Seasons",
+                "content": {
+                    "type": "layout",
+                    "key": "seasons_grid"
+                }
+            },
+            {
+                "type": "group",
                 "header": "Events",
                 "content": {
                     "type": "layout",
@@ -138,7 +144,7 @@
                     "type": "layout",
                     "key": "quicksettings_grid"
                 }
-            },
+            }
         ]
     }
 }

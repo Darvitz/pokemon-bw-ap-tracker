@@ -257,6 +257,12 @@
         "img": "/images/items/fossils/plumefossil.png",
         "codes": "plumefossil"
     },
+	{
+        "name": "RageCandyBar",
+        "type": "toggle",
+        "img": "/images/items/misc/ragecandybar.png",
+        "codes": "ragecandybar"
+    },
     {
         "name": "Spring",
         "type": "toggle",

@@ -5,6 +5,43 @@
         "chest_opened_img": "images/locations/pokeball_grayscale.png",
         "children": [
             {
+                "name": "Roamer",
+                "access_rules": [
+                    "@Opelucid City Access"
+                ],
+                "sections": [
+                    {
+                        "name": "Catch the roaming Tornadus",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,dexsanity_visibility_641"
+                        ],
+						"hosted_item": "caught_641"
+                    },
+                    {
+                        "name": "Catch the roaming Thundurus",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,dexsanity_visibility_642"
+                        ],
+						"hosted_item": "caught_642"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 8,
+                        "y": 8,
+						"size": 14,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
                 "name": "Striaton City",
                 "access_rules": [
                     "@Striaton City Access"
@@ -73,11 +110,184 @@
                 ]
             },
             {
+                "name": "Nacrene City",
+                "access_rules": [
+                    "@Nacrene City Access"
+                ],
+                "sections": [
+                    {
+                        "name": "Lass requesting a Cottonee (Trade)",
+                        "access_rules": [
+                            "caught_546"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,dexsanity_visibility_548",
+							"pokemon_black,dexsanity_visibility_549"
+                        ],
+						"hosted_item": "caught_548"
+                    },
+                    {
+                        "name": "Lass requesting a Petilil (Trade)",
+                        "access_rules": [
+                            "caught_548"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,dexsanity_visibility_546",
+							"pokemon_white,dexsanity_visibility_547"
+                        ],
+						"hosted_item": "caught_546"
+                    },
+                    {
+                        "name": "Museum - Revive the Helix Fossil",
+                        "access_rules": [
+                            "helixfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_138",
+							"dexsanity_visibility_139"
+                        ],
+						"hosted_item": "caught_138"
+                    },
+                    {
+                        "name": "Museum - Revive the Dome Fossil",
+                        "access_rules": [
+                            "domefossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_140",
+							"dexsanity_visibility_141"
+                        ],
+						"hosted_item": "caught_140"
+                    },
+                    {
+                        "name": "Museum - Revive the Old Amber",
+                        "access_rules": [
+                            "domefossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_142"
+                        ],
+						"hosted_item": "caught_142"
+                    },
+                    {
+                        "name": "Museum - Revive the Root Fossil",
+                        "access_rules": [
+                            "rootfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_345",
+							"dexsanity_visibility_346"
+                        ],
+						"hosted_item": "caught_345"
+                    },
+                    {
+                        "name": "Museum - Revive the Claw Fossil",
+                        "access_rules": [
+                            "clawfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_347",
+							"dexsanity_visibility_348"
+                        ],
+						"hosted_item": "caught_347"
+                    },
+                    {
+                        "name": "Museum - Revive the Skull Fossil",
+                        "access_rules": [
+                            "skullfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_408",
+							"dexsanity_visibility_409"
+                        ],
+						"hosted_item": "caught_408"
+                    },
+                    {
+                        "name": "Museum - Revive the Armor Fossil",
+                        "access_rules": [
+                            "armorfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_410",
+							"dexsanity_visibility_411"
+                        ],
+						"hosted_item": "caught_410"
+                    },
+                    {
+                        "name": "Museum - Revive the Cover Fossil",
+                        "access_rules": [
+                            "coverfossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_564",
+							"dexsanity_visibility_565"
+                        ],
+						"hosted_item": "caught_564"
+                    },
+                    {
+                        "name": "Museum - Revive the Plume Fossil",
+                        "access_rules": [
+                            "plumefossil"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_566",
+							"dexsanity_visibility_567"
+                        ],
+						"hosted_item": "caught_566"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 406,
+                        "y": 236,
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Castelia City",
+                "access_rules": [
+                    "@Castelia City Access"
+                ],
+                "sections": [
+                    {
+                        "name": "Zorua Event (Celebi in the party)",
+                        "access_rules": [
+                            "caught_251"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_570",
+							"dexsanity_visibility_571"
+                        ],
+						"hosted_item": "caught_570"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 264,
+                        "y": 260,
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Driftveil City",
                 "access_rules": [
                     "@Driftveil City Access"
                 ],
                 "sections": [
+                    {
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "access_rules": [
+                            "caught_572"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_550"
+                        ],
+						"hosted_item": "caught_550"
+                    },
                     {
                         "name": "Surf Encounters",
                         "item_count": 5,
@@ -409,6 +619,17 @@
                     "@Undella Town Access"
                 ],
                 "sections": [
+                    {
+                        "name": "Backer requesting a Cinccino (Trade)",
+                        "access_rules": [
+                            "caught_573"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_446",
+							"dexsanity_visibility_143"
+                        ],
+						"hosted_item": "caught_446"
+                    },
                     {
                         "name": "Surf Encounters",
                         "item_count": 5,
@@ -868,6 +1089,17 @@
                 ],
                 "sections": [
                     {
+                        "name": "Foongus Trap",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_590",
+							"dexsanity_visibility_591"
+                        ],
+						"hosted_item": "caught_590"
+                    },
+                    {
                         "name": "Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass_spring.png",
@@ -1246,6 +1478,16 @@
                     "@Route 7 Access"
                 ],
                 "sections": [
+                    {
+                        "name": "Hiker requesting a Boldore (Trade)",
+                        "access_rules": [
+                            "caught_525"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_587"
+                        ],
+						"hosted_item": "caught_587"
+                    },
                     {
                         "name": "Land Encounters (Spring)",
                         "item_count": 12,
@@ -1734,6 +1976,27 @@
                 ],
                 "sections": [
                     {
+                        "name": "Foongus Trap",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_590",
+							"dexsanity_visibility_591"
+                        ],
+						"hosted_item": "caught_590"
+                    },
+                    {
+                        "name": "Amoonguss Trap",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+							"dexsanity_visibility_591"
+                        ],
+						"hosted_item": "caught_591"
+                    },
+                    {
                         "name": "Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass.png",
@@ -2160,6 +2423,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Scientist requesting a Ditto (Trade)",
+                        "access_rules": [
+                            "caught_132"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_479"
+                        ],
+						"hosted_item": "caught_479"
+                    },
+                    {
                         "name": "Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass.png",
@@ -2334,6 +2607,17 @@
                     "@Route 18 Access"
                 ],
                 "sections": [
+                    {
+                        "name": "Larvesta Egg from a Ranger",
+                        "access_rules": [
+                            "hm03surf"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_636",
+							"dexsanity_visibility_637"
+                        ],
+						"hosted_item": "caught_636"
+                    },
                     {
                         "name": "Land Encounters",
                         "item_count": 12,
@@ -2528,6 +2812,31 @@
                 ]
             },
             {
+                "name": "Liberty Garden",
+                "access_rules": [
+                    "@Liberty Garden Access"
+                ],
+                "sections": [
+                    {
+                        "name": "Lighthouse Basement - Victini (Static)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_494"
+                        ],
+						"hosted_item": "caught_494"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 148,
+                        "y": 290
+                    }
+                ]
+            },
+            {
                 "name": "Dreamyard",
                 "access_rules": [
                     "@Dreamyard Access"
@@ -2572,6 +2881,16 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Basement - Musharna (Static)",
+                        "access_rules": [
+                            "@Dreamyard Basement Access"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_518"
+                        ],
+						"hosted_item": "caught_518"
                     },
                     {
                         "name": "Basement - Dark Grass Encounters", "item_count": 12,
@@ -2889,6 +3208,16 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Rumination Field - Virizion (Static)",
+                        "access_rules": [
+                            "@Rumination Field Access"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_640"
+                        ],
+						"hosted_item": "caught_640"
                     }
                 ],
                 "map_locations": [
@@ -2917,6 +3246,16 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Inside - Zen Mode Darmanitan Statue",
+                        "access_rules": [
+                            "ragecandybar"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_555"
+                        ],
+						"hosted_item": "caught_555"
                     },
                     {
                         "name": "Inside - Land Encounters",
@@ -3051,45 +3390,6 @@
                         ]
                     },
                     {
-                        "name": "B7F Top Left - Land Encounters",
-                        "item_count": 12,
-                        "chest_unopened_img": "images/locations/tower.png",
-                        "chest_opened_img": "images/locations/tower_grayscale.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "explorerkit, defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "B7F Left of Center - Land Encounters",
-                        "item_count": 12,
-                        "chest_unopened_img": "images/locations/tower.png",
-                        "chest_opened_img": "images/locations/tower_grayscale.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "explorerkit, defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "B7F Right of Center - Land Encounters",
-                        "item_count": 12,
-                        "chest_unopened_img": "images/locations/tower.png",
-                        "chest_opened_img": "images/locations/tower_grayscale.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "explorerkit, defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
                         "name": "B7F Right of Top Center - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
@@ -3129,6 +3429,45 @@
                         ]
                     },
                     {
+                        "name": "B7F Top Left - Land Encounters",
+                        "item_count": 12,
+                        "chest_unopened_img": "images/locations/tower.png",
+                        "chest_opened_img": "images/locations/tower_grayscale.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "B7F Under Top Left - Land Encounters",
+                        "item_count": 12,
+                        "chest_unopened_img": "images/locations/tower.png",
+                        "chest_opened_img": "images/locations/tower_grayscale.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "B7F Left of Center - Land Encounters",
+                        "item_count": 12,
+                        "chest_unopened_img": "images/locations/tower.png",
+                        "chest_opened_img": "images/locations/tower_grayscale.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
                         "name": "B7F Center - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
@@ -3142,20 +3481,7 @@
                         ]
                     },
                     {
-                        "name": "B7F Left of Volcarona Entrance - Land Encounters",
-                        "item_count": 12,
-                        "chest_unopened_img": "images/locations/tower.png",
-                        "chest_opened_img": "images/locations/tower_grayscale.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "explorerkit, defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "B7F Right of Volcarona Entrance - Land Encounters",
+                        "name": "B7F Right of Center - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
                         "chest_opened_img": "images/locations/tower_grayscale.png",
@@ -3194,20 +3520,7 @@
                         ]
                     },
                     {
-                        "name": "B7F Under Top Left - Land Encounters",
-                        "item_count": 12,
-                        "chest_unopened_img": "images/locations/tower.png",
-                        "chest_opened_img": "images/locations/tower_grayscale.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "explorerkit, defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "B7F Bottom Left - Land Encounters",
+                        "name": "B7F Right of Volcarona Entrance - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
                         "chest_opened_img": "images/locations/tower_grayscale.png",
@@ -3233,7 +3546,43 @@
                         ]
                     },
                     {
+                        "name": "Volcarona Room - Volcarona (Static)",
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_637"
+                        ],
+						"hosted_item": "caught_637"
+                    },
+                    {
                         "name": "Volcarona Room - Land Encounters",
+                        "item_count": 12,
+                        "chest_unopened_img": "images/locations/tower.png",
+                        "chest_opened_img": "images/locations/tower_grayscale.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "B7F Left of Volcarona Entrance - Land Encounters",
+                        "item_count": 12,
+                        "chest_unopened_img": "images/locations/tower.png",
+                        "chest_opened_img": "images/locations/tower_grayscale.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "explorerkit, defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "B7F Bottom Left - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
                         "chest_opened_img": "images/locations/tower_grayscale.png",
@@ -3590,6 +3939,18 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Guidance Chamber - Cobalion (Static)",
+                        "access_rules": [
+                            "hm04strength"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_638",
+							"dexsanity_visibility_639",
+							"dexsanity_visibility_640"
+                        ],
+						"hosted_item": "caught_638"
                     },
                     {
                         "name": "Guidance Chamber - Land Encounters",
@@ -5585,6 +5946,16 @@
                         ]
                     },
                     {
+                        "name": "Trial Chamber - Terrakion (Static)",
+                        "access_rules": [
+                            "@Trial Chamber Access"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_639"
+                        ],
+						"hosted_item": "caught_639"
+                    },
+                    {
                         "name": "Trial Chamber - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
@@ -5616,6 +5987,42 @@
                         "map": "overworld",
                         "x": 326,
                         "y": 48
+                    }
+                ]
+            },
+            {
+                "name": "Pokémon League",
+                "access_rules": [
+                    "@Pokémon League Access"
+                ],
+                "sections": [
+                    {
+                        "name": "N's Castle - Reshiram (Static)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,dexsanity_visibility_643"
+                        ],
+						"hosted_item": "caught_643"
+                    },
+                    {
+                        "name": "N's Castle - Zekrom (Static)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,dexsanity_visibility_644"
+                        ],
+						"hosted_item": "caught_644"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 340,
+                        "y": 30,
+						"size": 14
                     }
                 ]
             },
@@ -6196,6 +6603,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Landorus Event (Tornadus and Thundurus in the party)",
+                        "access_rules": [
+                            "caught_641,caught_642,defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_645"
+                        ],
+						"hosted_item": "caught_645"
+                    },
+                    {
                         "name": "Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass.png",
@@ -6302,6 +6719,17 @@
                 ],
                 "sections": [
                     {
+                        "name": "Purchase a Magikarp for 500 Pokédollars",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_129",
+							"dexsanity_visibility_130"
+                        ],
+						"hosted_item": "caught_129"
+                    },
+                    {
                         "name": "Land Phenomena",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/flyingshadow.png",
@@ -6329,6 +6757,18 @@
                     "@Lostlorn Forest Access"
                 ],
                 "sections": [
+                    {
+                        "name": "Zoroark Event (Entei, Suicune or Raikou in the party)",
+                        "access_rules": [
+                            "caught_243",
+							"caught_244",
+							"caught_245"
+                        ],
+                        "visibility_rules": [
+                            "dexsanity_visibility_571"
+                        ],
+						"hosted_item": "caught_571"
+                    },
                     {
                         "name": "Land Encounters",
                         "item_count": 12,

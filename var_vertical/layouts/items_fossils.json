@@ -78,15 +78,9 @@
         "v_alignment": "center",
         "rows": [
             [
-                "helpdaycareman"
-            ],
-            [
-                "defeatbrycen"
-			],
-            [
-                "catchdefeatcobalion"
-			],
-			[
+                "helpdaycareman",
+				"defeatbrycen",
+				"catchdefeatcobalion",
 				"defeatghetsis"
             ]
         ]
@@ -105,7 +99,7 @@
     },
     "items_tracker": {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "content": [
             {
                 "type": "group",

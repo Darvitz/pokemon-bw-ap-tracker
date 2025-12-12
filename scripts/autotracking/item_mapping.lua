@@ -137,6 +137,7 @@ ITEM_MAPPING = {
     [105] = {{"skullfossil"}, "toggle"},
     [572] = {{"coverfossil"}, "toggle"},
     [573] = {{"plumefossil"}, "toggle"},
+    [504] = {{"ragecandybar"}, "toggle"},
     [129] = {{"spring"}, "toggle"},
     [130] = {{"summer"}, "toggle"},
     [131] = {{"autumn"}, "toggle"},
