@@ -1,0 +1,87 @@
+﻿{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dropshadow": false,
+                    "dock": "bottom",
+                    "background": "#000000",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "key_items_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Seasons",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "seasons_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Events",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "event_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Tools",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "quick_settings_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pokésearch",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "dexsearch_grid"
+                            }
+						}
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "tabs"
+                    }
+                }
+            ]
+        }
+    }
+}

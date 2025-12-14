@@ -270,5 +270,124 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "dexsearch_digit1",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/dexnumbers/0--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/1--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/2--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/3--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/4--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/5--.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/6--.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "dexsearch_digit2",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/dexnumbers/-0-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-1-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-2-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-3-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-4-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-5-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-6-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-7-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-8-.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/-9-.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "dexsearch_digit3",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/dexnumbers/--0.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--1.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--2.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--3.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--4.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--5.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--6.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--7.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--8.png"
+            },
+            {
+                "img": "/images/settings/dexnumbers/--9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "go",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/area.png"
+            }
+        ]
     }
 ]

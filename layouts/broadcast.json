@@ -7,10 +7,6 @@
         "content": [
             {
                 "type": "layout",
-                "key": "badges_grid"
-            },
-            {
-                "type": "layout",
                 "key": "key_items_grid"
             }
         ]

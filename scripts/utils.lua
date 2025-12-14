@@ -58,14 +58,20 @@ function toggle_goal()
 	end
 end
 
-function toggle_itemgrid()    
+function toggle_keyitemgrid()    
     local suffix = ""
-    if has("season_control_randomized") then
-        suffix = suffix .. "_seasons"
-    end
     if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
         suffix = suffix .. "_fossils"
     end
         
     Tracker:AddLayouts("layouts/items"..suffix..".json")
+end
+
+function toggle_itemgrid()   
+    local suffix = ""
+    if has("season_control_randomized") then
+        suffix = suffix .. "_seasons"
+    end
+	
+    Tracker:AddLayouts("layouts/tracker"..suffix..".json")
 end

@@ -1,0 +1,43 @@
+{
+    "dexsearch_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,6",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "dexsearch_digit1",
+                        "item_size": "17, 32"
+                    },
+                    {
+                        "type": "item",
+                        "item": "dexsearch_digit2",
+                        "item_size": "13, 32"
+                    },
+                    {
+                        "type": "item",
+                        "item": "dexsearch_digit3",
+                        "item_size": "17, 32"
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "item_size": "32,32",
+                        "h_alignment": "left",
+                        "v_alignment": "center",
+                        "rows": [
+                            [
+                                "go"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
