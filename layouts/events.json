@@ -35,28 +35,19 @@
     },
     "v_event_grid": {
         "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2,2",
-                        "item_size": "32,32",
-                        "h_alignment": "center",
-                        "rows": [
-                            [
-                                "helpdaycareman",
-								"defeatbrycen",
-								"catchdefeatcobalion",
-								"defeatghetsis"
-                            ]
-                        ]
-                    }
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "item_size": "32,32",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "helpdaycareman",
+                        "defeatbrycen",
+                        "catchdefeatcobalion",
+                        "defeatghetsis"
+                    ]
                 ]
             }
         ]

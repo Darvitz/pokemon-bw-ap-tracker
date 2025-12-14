@@ -380,13 +380,18 @@
         ]
     },
     {
-        "name": "",
+        "name": "Click here to search",
         "type": "progressive",
         "codes": "go",
         "allow_disabled": false,
         "stages": [
             {
+                "name": "Click here to search",
                 "img": "/images/settings/area.png"
+            },
+            {
+                "img": "/images/settings/area.png",
+                "img_mods": "@disabled"
             }
         ]
     }
