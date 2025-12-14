@@ -98,3 +98,44 @@ function evolve_move()
 	    return AccessibilityLevel.SequenceBreak
     end
 end
+
+function searchMon()
+    if POKEMON_TO_LOCATIONS ~= nil then
+        Tracker:FindObjectForCode("static_visibility").CurrentStage = 0
+        Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
+        
+        for region_key, location in pairs(ENCOUNTER_MAPPING) do
+            local object = Tracker:FindObjectForCode(location)
+            object.AvailableChestCount = 0
+        end
+        
+        local dex1 = Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage
+        local dex2 = Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage
+        local dex3 = Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage
+        local dexID = dex1 * 100 + dex2 * 10 + dex3
+        
+        Tracker:FindObjectForCode("search_ID_result").CurrentStage = dexID
+        
+        local locations = POKEMON_TO_LOCATIONS[dexID]
+        
+        if not locations then
+            print("The Pokemon with the ID "..dexID.." cannot be caught in the wild!")
+            Tracker:FindObjectForCode("go").CurrentStage = 0
+            Tracker:FindObjectForCode("no_wild_encounters_found").Active = true
+            return
+        end
+    
+        for _, location in ipairs(locations) do
+            local object_name = ENCOUNTER_MAPPING[location]
+            print(object_name)
+            if object_name then
+                local object = Tracker:FindObjectForCode(object_name)
+                if object then
+                    object.AvailableChestCount = object.AvailableChestCount + 1
+                end
+            end
+        end
+    end
+    
+    Tracker:FindObjectForCode("go").CurrentStage = 0
+end

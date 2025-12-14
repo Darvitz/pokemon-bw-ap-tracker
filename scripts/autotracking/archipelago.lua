@@ -324,6 +324,7 @@ function updateSeen(value)
 end
 
 function updatePokemon()
+    Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
 
     for i = 1, 649 do
         if table_contains(CAUGHT, i) then

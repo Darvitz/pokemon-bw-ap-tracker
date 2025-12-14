@@ -32,7 +32,8 @@
                         "v_alignment": "center",
                         "rows": [
                             [
-                                "go"
+                                "go",
+                                "search_ID_result"
                             ]
                         ]
                     }

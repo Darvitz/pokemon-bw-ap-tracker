@@ -1,5 +1,5 @@
 FLAG_EVENT_CODES = {
-    "",
+    "dummy",
     "defeatghetsis",
     "defeatcynthia",
     "arrestsagegiallo",

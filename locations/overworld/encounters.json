@@ -5,6 +5,26 @@
         "chest_opened_img": "images/locations/pokeball_grayscale.png",
         "children": [
             {
+                "name": "Not available in the Wild",
+                "sections": [
+                    {
+                        "name": "If you see this, the Pokemon you searched\nfor does not exist in the Wild.\n\n Consider Evolution logic and search for its pre-evolutions!",
+                        "visibility_rules": [
+                            "no_wild_encounters_found"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 40,
+                        "y": 270,
+						"size": 48,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
                 "name": "Roamer",
                 "access_rules": [
                     "@Opelucid City Access"
@@ -16,7 +36,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_641"
+                            "pokemon_black,dexsanity_visibility_641,static_visibility_true"
                         ],
 						"hosted_item": "caught_641"
                     },
@@ -26,7 +46,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_642"
+                            "pokemon_white,dexsanity_visibility_642,static_visibility_true"
                         ],
 						"hosted_item": "caught_642"
                     }
@@ -121,8 +141,8 @@
                             "caught_546"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_548",
-							"pokemon_black,dexsanity_visibility_549"
+                            "pokemon_black,dexsanity_visibility_548,static_visibility_true",
+							"pokemon_black,dexsanity_visibility_549,static_visibility_true"
                         ],
 						"hosted_item": "caught_548"
                     },
@@ -132,8 +152,8 @@
                             "caught_548"
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_546",
-							"pokemon_white,dexsanity_visibility_547"
+                            "pokemon_white,dexsanity_visibility_546,static_visibility_true",
+							"pokemon_white,dexsanity_visibility_547,static_visibility_true"
                         ],
 						"hosted_item": "caught_546"
                     },
@@ -143,8 +163,8 @@
                             "helixfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_138",
-							"dexsanity_visibility_139"
+                            "dexsanity_visibility_138,static_visibility_true",
+							"dexsanity_visibility_139,static_visibility_true"
                         ],
 						"hosted_item": "caught_138"
                     },
@@ -154,8 +174,8 @@
                             "domefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_140",
-							"dexsanity_visibility_141"
+                            "dexsanity_visibility_140,static_visibility_true",
+							"dexsanity_visibility_141,static_visibility_true"
                         ],
 						"hosted_item": "caught_140"
                     },
@@ -165,7 +185,7 @@
                             "domefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_142"
+                            "dexsanity_visibility_142,static_visibility_true"
                         ],
 						"hosted_item": "caught_142"
                     },
@@ -175,8 +195,8 @@
                             "rootfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_345",
-							"dexsanity_visibility_346"
+                            "dexsanity_visibility_345,static_visibility_true",
+							"dexsanity_visibility_346,static_visibility_true"
                         ],
 						"hosted_item": "caught_345"
                     },
@@ -186,8 +206,8 @@
                             "clawfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_347",
-							"dexsanity_visibility_348"
+                            "dexsanity_visibility_347,static_visibility_true",
+							"dexsanity_visibility_348,static_visibility_true"
                         ],
 						"hosted_item": "caught_347"
                     },
@@ -197,8 +217,8 @@
                             "skullfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_408",
-							"dexsanity_visibility_409"
+                            "dexsanity_visibility_408,static_visibility_true",
+							"dexsanity_visibility_409,static_visibility_true"
                         ],
 						"hosted_item": "caught_408"
                     },
@@ -208,8 +228,8 @@
                             "armorfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_410",
-							"dexsanity_visibility_411"
+                            "dexsanity_visibility_410,static_visibility_true",
+							"dexsanity_visibility_411,static_visibility_true"
                         ],
 						"hosted_item": "caught_410"
                     },
@@ -219,8 +239,8 @@
                             "coverfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_564",
-							"dexsanity_visibility_565"
+                            "dexsanity_visibility_564,static_visibility_true",
+							"dexsanity_visibility_565,static_visibility_true"
                         ],
 						"hosted_item": "caught_564"
                     },
@@ -230,8 +250,8 @@
                             "plumefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_566",
-							"dexsanity_visibility_567"
+                            "dexsanity_visibility_566,static_visibility_true",
+							"dexsanity_visibility_567,static_visibility_true"
                         ],
 						"hosted_item": "caught_566"
                     }
@@ -284,7 +304,7 @@
                             "caught_572"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_550"
+                            "dexsanity_visibility_550,static_visibility_true"
                         ],
 						"hosted_item": "caught_550"
                     },
@@ -625,8 +645,8 @@
                             "caught_573"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_446",
-							"dexsanity_visibility_143"
+                            "dexsanity_visibility_446,static_visibility_true",
+							"dexsanity_visibility_143,static_visibility_true"
                         ],
 						"hosted_item": "caught_446"
                     },
@@ -1094,8 +1114,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_590",
-							"dexsanity_visibility_591"
+                            "dexsanity_visibility_590,static_visibility_true",
+							"dexsanity_visibility_591,static_visibility_true"
                         ],
 						"hosted_item": "caught_590"
                     },
@@ -1484,7 +1504,7 @@
                             "caught_525"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_587"
+                            "dexsanity_visibility_587,static_visibility_true"
                         ],
 						"hosted_item": "caught_587"
                     },
@@ -1981,8 +2001,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_590",
-							"dexsanity_visibility_591"
+                            "dexsanity_visibility_590,static_visibility_true",
+							"dexsanity_visibility_591,static_visibility_true"
                         ],
 						"hosted_item": "caught_590"
                     },
@@ -1992,7 +2012,7 @@
                             ""
                         ],
                         "visibility_rules": [
-							"dexsanity_visibility_591"
+							"dexsanity_visibility_591,static_visibility_true"
                         ],
 						"hosted_item": "caught_591"
                     },
@@ -2428,7 +2448,7 @@
                             "caught_132"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_479"
+                            "dexsanity_visibility_479,static_visibility_true"
                         ],
 						"hosted_item": "caught_479"
                     },
@@ -2613,8 +2633,8 @@
                             "hm03surf"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_636",
-							"dexsanity_visibility_637"
+                            "dexsanity_visibility_636,static_visibility_true",
+							"dexsanity_visibility_637,static_visibility_true"
                         ],
 						"hosted_item": "caught_636"
                     },
@@ -2823,7 +2843,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_494"
+                            "dexsanity_visibility_494,static_visibility_true"
                         ],
 						"hosted_item": "caught_494"
                     }
@@ -2888,7 +2908,7 @@
                             "@Dreamyard Basement Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_518"
+                            "dexsanity_visibility_518,static_visibility_true"
                         ],
 						"hosted_item": "caught_518"
                     },
@@ -3215,7 +3235,7 @@
                             "@Rumination Field Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_640"
+                            "dexsanity_visibility_640,static_visibility_true"
                         ],
 						"hosted_item": "caught_640"
                     }
@@ -3253,7 +3273,7 @@
                             "ragecandybar"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_555"
+                            "dexsanity_visibility_555,static_visibility_true"
                         ],
 						"hosted_item": "caught_555"
                     },
@@ -3551,7 +3571,7 @@
                             "explorerkit, defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_637"
+                            "dexsanity_visibility_637,static_visibility_true"
                         ],
 						"hosted_item": "caught_637"
                     },
@@ -3946,9 +3966,9 @@
                             "hm04strength"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_638",
-							"dexsanity_visibility_639",
-							"dexsanity_visibility_640"
+                            "dexsanity_visibility_638,static_visibility_true",
+							"dexsanity_visibility_639,static_visibility_true",
+							"dexsanity_visibility_640,static_visibility_true"
                         ],
 						"hosted_item": "caught_638"
                     },
@@ -5951,7 +5971,7 @@
                             "@Trial Chamber Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_639"
+                            "dexsanity_visibility_639,static_visibility_true"
                         ],
 						"hosted_item": "caught_639"
                     },
@@ -6002,7 +6022,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_643"
+                            "pokemon_black,dexsanity_visibility_643,static_visibility_true"
                         ],
 						"hosted_item": "caught_643"
                     },
@@ -6012,7 +6032,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_644"
+                            "pokemon_white,dexsanity_visibility_644,static_visibility_true"
                         ],
 						"hosted_item": "caught_644"
                     }
@@ -6295,7 +6315,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_646"
+                            "dexsanity_visibility_646,static_visibility_true"
                         ],
 						"hosted_item": "caught_646"
                     },
@@ -6734,8 +6754,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_129",
-							"dexsanity_visibility_130"
+                            "dexsanity_visibility_129,static_visibility_true",
+							"dexsanity_visibility_130,static_visibility_true"
                         ],
 						"hosted_item": "caught_129"
                     },

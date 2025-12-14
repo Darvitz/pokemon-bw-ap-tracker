@@ -286,5 +286,10 @@
         "type": "toggle",
         "img": "/images/items/seasons/winter.png",
         "codes": "winter"
+    },
+    {
+        "name": "Dummy",
+        "type": "toggle",
+        "codes": "dummy"
     }
 ]
