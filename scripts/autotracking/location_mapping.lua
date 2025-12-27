@@ -1,4 +1,4 @@
-﻿LOCATION_MAPPING = {
+LOCATION_MAPPING = {
 -- Item Locations
   [101230] = "@Unova Locations/Route 1/West - West item",
   [101143] = "@Unova Locations/Route 1/West - South item",
