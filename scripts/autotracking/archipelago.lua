@@ -42,6 +42,8 @@ function onClear(slot_data)
             end
         end
     end
+	
+	resetLocations()
 
     -- reset dexsanity items
     for i = 1, 649 do
@@ -297,6 +299,17 @@ function onItem(index, item_id, item_name, player_number)
     end
 end
 
+function resetLocations()
+    for _, v in pairs(LOCATION_MAPPING) do
+        local obj = Tracker:FindObjectForCode(v)
+        if obj ~= nil and (v:sub(1, 1) == "@") then
+            obj.AvailableChestCount = obj.ChestCount
+        end
+    end
+	-- Hardcoded Edge Case:
+	Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 1
+end
+
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     local v = LOCATION_MAPPING[location_id]
@@ -306,7 +319,10 @@ function onLocation(location_id, location_name)
     
     local obj = Tracker:FindObjectForCode(v)
     if obj then
-    	if v:sub(1, 1) == "@" then
+		if location_id == 200903 then
+			Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount - 1
+			Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount - 1
+    	elseif v:sub(1, 1) == "@" then
     		obj.AvailableChestCount = obj.AvailableChestCount - 1
     	elseif obj.Type == "progressive" then
     		obj.CurrentStage = obj.CurrentStage + 1
