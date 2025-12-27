@@ -2573,8 +2573,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Route 3 North Access,^$hidden",
-							"@Dreamyard Basement Access,^$hidden"
+                            "@Route 3 North Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6320,8 +6319,15 @@
                         ]
                     },
                     {
-                        "ref": "Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Dreamyard Basement Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
                     },
                     {
                         "name": "Ruins - Land Encounters",
