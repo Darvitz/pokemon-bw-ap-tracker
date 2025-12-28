@@ -1,0 +1,917 @@
+[
+    {
+        "name": "Submaps",
+        "chest_unopened_img": "/images/items/pokeball.png",
+        "chest_opened_img": "/images/items/pokeball_open.png",
+        "children": [
+            {
+                "name": "Juniper Pokémon Lab",
+                "sections": [
+                    {
+                        "name": "TM from Professor Juniper for seeing 25 species",
+                        "ref": "Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 25 species"
+                    },
+                    {
+                        "name": "TM from Professor Juniper for seeing 60 species",
+                        "ref": "Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 60 species"
+                    },
+                    {
+                        "name": "TM from Professor Juniper for seeing 115 species",
+                        "ref": "Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 115 species"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nuvematown",
+                        "x": 152,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Player's house",
+                "sections": [
+                    {
+                        "name": "Item from Mom after first fight",
+                        "ref": "Unova Locations/Nuvema Town/Item from Mom after first fight"
+                    },
+                    {
+                        "name": "Item from Looker after beating Ghetsis",
+                        "ref": "Unova Locations/Nuvema Town/Item from Looker after beating Ghetsis"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nuvematown",
+                        "x": 232,
+                        "y": 194
+                    }
+                ]
+            },
+            {
+                "name": "Route 1",
+                "sections": [
+                    {
+                        "name": "Item after catching tutorial #1",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #1"
+                    },
+                    {
+                        "name": "Item after catching tutorial #2",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #2"
+                    },
+                    {
+                        "name": "Item after catching tutorial #3",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #3"
+                    },
+                    {
+                        "name": "Item after catching tutorial #4",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #4"
+                    },
+                    {
+                        "name": "Item after catching tutorial #5",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #5"
+                    },
+                    {
+                        "name": "Item from woman",
+                        "ref": "Unova Locations/Route 1/Item from woman"
+                    },
+                    {
+                        "name": "West - South item",
+                        "ref": "Unova Locations/Route 1/West - South item"
+                    },
+                    {
+                        "name": "West - West item",
+                        "ref": "Unova Locations/Route 1/West - West item"
+                    },
+                    {
+                        "name": "West - South hidden item",
+                        "ref": "Unova Locations/Route 1/West - South hidden item"
+                    },
+                    {
+                        "name": "West - Item from ranger Brenda",
+                        "ref": "Unova Locations/Route 1/West - Item from ranger Brenda"
+                    },
+                    {
+                        "name": "West - Item from ranger Claude",
+                        "ref": "Unova Locations/Route 1/West - Item from ranger Claude"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 1/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 1/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 1/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 1/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 1/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 1/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 1/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nuvematown",
+                        "x": 328,
+                        "y": 8,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "accumulatown",
+                        "x": 366,
+                        "y": 500,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Accumula Town",
+                "sections": [
+                    {
+                        "name": "Item from man in north west building",
+                        "ref": "Unova Locations/Accumula Town/Item from man in north west building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "accumulatown",
+                        "x": 152,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Route 2",
+                "sections": [
+                    {
+                        "name": "East item #1",
+                        "ref": "Unova Locations/Route 2/East item #1"
+                    },
+                    {
+                        "name": "East item #2",
+                        "ref": "Unova Locations/Route 2/East item #2"
+                    },
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Route 2/South west item"
+                    },
+                    {
+                        "name": "Item behind boulder",
+                        "ref": "Unova Locations/Route 2/Item behind boulder"
+                    },
+                    {
+                        "name": "Item behind cut tree #2",
+                        "ref": "Unova Locations/Route 2/Item behind cut tree #1"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 2/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 2/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "accumulatown",
+                        "x": 8,
+                        "y": 136,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Striaton City​​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Striaton City/South item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 616,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Striaton City​​",
+                "sections": [
+                    {
+                        "name": "Item from man in south east building",
+                        "ref": "Unova Locations/Striaton City/Item from man in south east building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 862,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Striaton City​",
+                "sections": [
+                    {
+                        "name": "Item from roughneck",
+                        "ref": "Unova Locations/Striaton City/Item from roughneck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 952,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "Striaton City",
+                "sections": [
+                    {
+                        "name": "TM from Fennel",
+                        "ref": "Unova Locations/Striaton City/TM from Fennel"
+                    },
+                    {
+                        "name": "Item from Amanita",
+                        "ref": "Unova Locations/Striaton City/Item from Amanita"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 862,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Trainers' School",
+                "sections": [
+                    {
+                        "name": "Item from boy",
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from boy"
+                    },
+                    {
+                        "name": "Item from Cheren #1",
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #1"
+                    },
+                    {
+                        "name": "Item from Cheren #2",
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #2"
+                    },
+                    {
+                        "name": "Item from Cheren #3",
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 616,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Garden​​​",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Striaton City/Garden - Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 200,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Garden​​",
+                "sections": [
+                    {
+                        "name": "North west hidden item #1",
+                        "ref": "Unova Locations/Striaton City/Garden - North west hidden item #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 136,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Garden​",
+                "sections": [
+                    {
+                        "name": "North west hidden item #2",
+                        "ref": "Unova Locations/Striaton City/Garden - North west hidden item #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 424,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Garden",
+                "sections": [
+                    {
+                        "name": "Item from fisherman",
+                        "ref": "Unova Locations/Striaton City/Garden - Item from fisherman"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 72,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Striaton Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Striaton City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Striaton City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Striaton City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 840,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Striaton City​​​​",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Striaton City/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Striaton City/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Striaton City/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Striaton City/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 8,
+                        "y": 8,
+                        "size": 22,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Route 2",
+                "sections": [
+                    {
+                        "name": "East item #1",
+                        "ref": "Unova Locations/Route 2/East item #1"
+                    },
+                    {
+                        "name": "East item #2",
+                        "ref": "Unova Locations/Route 2/East item #2"
+                    },
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Route 2/South west item"
+                    },
+                    {
+                        "name": "Item behind boulder",
+                        "ref": "Unova Locations/Route 2/Item behind boulder"
+                    },
+                    {
+                        "name": "Item behind cut tree #2",
+                        "ref": "Unova Locations/Route 2/Item behind cut tree #1"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 2/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 2/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 816,
+                        "y": 504,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dreamyard",
+                "sections": [
+                    {
+                        "name": "Ruins - Item near traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near traffic cone"
+                    },
+                    {
+                        "name": "Ruins - Item behind broken wall",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item behind broken wall"
+                    },
+                    {
+                        "name": "Ruins - North west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - North west item"
+                    },
+                    {
+                        "name": "Ruins 2F - East item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - East item"
+                    },
+                    {
+                        "name": "Ruins 2F - West item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - West item"
+                    },
+                    {
+                        "name": "Ruins - Item near furnace",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near furnace"
+                    },
+                    {
+                        "name": "Ruins - South west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South west item"
+                    },
+                    {
+                        "name": "Ruins - South hidden item in barrel",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South hidden item in barrel"
+                    },
+                    {
+                        "name": "Ruins - TM from sage Gorm",
+                        "ref": "Unova Locations/Dreamyard/Ruins - TM from sage Gorm"
+                    },
+                    {
+                        "name": "Ruins - Sage Gorm (Event)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Sage Gorm (Event)"
+                    },
+                    {
+                        "name": "Basement - North west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North west item"
+                    },
+                    {
+                        "name": "Basement - South west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west item"
+                    },
+                    {
+                        "name": "Basement - North east hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North east hidden item"
+                    },
+                    {
+                        "name": "Basement - South west hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west hidden item"
+                    },
+                    {
+                        "name": "Basement - West hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
+                    },
+                    {
+                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                    },
+                    {
+                        "name": "Ruins - Land Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Encounters"
+                    },
+                    {
+                        "name": "Ruins - Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Ruins - Land Phenomena",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Phenomena"
+                    },
+                    {
+                        "name": "Basement - Musharna (Static)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Musharna (Static)"
+                    },
+                    {
+                        "name": "Basement - Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 1112,
+                        "y": 96,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Route 3",
+                "sections": [
+                    {
+                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
+                        "ref": "Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                    },
+                    {
+                        "name": "North - North item",
+                        "ref": "Unova Locations/Route 3/North - North item"
+                    },
+                    {
+                        "name": "North - North west item",
+                        "ref": "Unova Locations/Route 3/North - North west item"
+                    },
+                    {
+                        "name": "North - Item from pokémon breeder Adelaide",
+                        "ref": "Unova Locations/Route 3/North - Item from pokémon breeder Adelaide"
+                    },
+                    {
+                        "name": "North - Item from girl after Wellspring Cave #1",
+                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #1"
+                    },
+                    {
+                        "name": "North - Item from girl after Wellspring Cave #2",
+                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #2"
+                    },
+                    {
+                        "name": "North - Item from girl after Wellspring Cave #3",
+                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #3"
+                    },
+                    {
+                        "name": "South - Center item",
+                        "ref": "Unova Locations/Route 3/South - Center item"
+                    },
+                    {
+                        "name": "South - South item",
+                        "ref": "Unova Locations/Route 3/South - South item"
+                    },
+                    {
+                        "name": "South - South west item",
+                        "ref": "Unova Locations/Route 3/South - South west item"
+                    },
+                    {
+                        "name": "South - South east or west hidden item",
+                        "ref": "Unova Locations/Route 3/South - South east or west hidden item"
+                    },
+                    {
+                        "name": "Pond - Item across water",
+                        "ref": "Unova Locations/Route 3/Pond - Item across water"
+                    },
+                    {
+                        "name": "Pond - West item #1",
+                        "ref": "Unova Locations/Route 3/Pond - West item #1"
+                    },
+                    {
+                        "name": "Pond - West item #2",
+                        "ref": "Unova Locations/Route 3/Pond - West item #2"
+                    },
+                    {
+                        "name": "Pond - Item from pokémon breeder Galen",
+                        "ref": "Unova Locations/Route 3/Pond - Item from pokémon breeder Galen"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 3/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 3/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 3/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 3/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 3/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 3/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 3/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatoncity",
+                        "x": 248,
+                        "y": 8,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "nacrenecity",
+                        "x": 1016,
+                        "y": 376,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City",
+                "sections": [
+                    {
+                        "name": "Hidden item near Café Warehouse",
+                        "ref": "Unova Locations/Nacrene City/Hidden item near Café Warehouse"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 392,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City​",
+                "sections": [
+                    {
+                        "name": "Hidden item on railway",
+                        "ref": "Unova Locations/Nacrene City/Hidden item on railway"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 24,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City​​",
+                "sections": [
+                    {
+                        "name": "Item from Cheren #1",
+                        "ref": "Unova Locations/Nacrene City/Item from Cheren #1"
+                    },
+                    {
+                        "name": "Item from Cheren #2",
+                        "ref": "Unova Locations/Nacrene City/Item from Cheren #2"
+                    },
+                    {
+                        "name": "Item from Cheren #1",
+                        "ref": "Unova Locations/Nacrene City/Item from Cheren #3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 880,
+                        "y": 384
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City​​​",
+                "sections": [
+                    {
+                        "name": "Item from girl in west building",
+                        "ref": "Unova Locations/Nacrene City/Item from girl in west building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 216,
+                        "y": 336
+                    }
+                ]
+            },
+            {
+                "name": "Café Warehouse",
+                "sections": [
+                    {
+                        "name": "Item from waitress",
+                        "ref": "Unova Locations/Nacrene City/Item from waitress in Café Warehouse"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 264,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City​​​​",
+                "sections": [
+                    {
+                        "name": "Item from Bianca",
+                        "ref": "Unova Locations/Nacrene City/Item from Bianca"
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle",
+                        "ref": "Unova Locations/Nacrene City/Item from Lenora after Relic Castle"
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle",
+                        "ref": "Unova Locations/Nacrene City/Item from Lenora after Relic Castle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 584,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene Museum",
+                "sections": [
+                    {
+                        "name": "Gym - Guide item",
+                        "ref": "Unova Locations/Nacrene City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Gym - Badge reward",
+                        "ref": "Unova Locations/Nacrene City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "Gym - TM reward",
+                        "ref": "Unova Locations/Nacrene City/Gym - TM reward"
+                    },
+                    {
+                        "name": "Museum - Revive the Helix Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Helix Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Old Amber",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Old Amber"
+                    },
+                    {
+                        "name": "Museum - Revive the Root Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Root Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Claw Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Claw Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Skull Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Skull Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Armor Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Armor Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Cover Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Cover Fossil"
+                    },
+                    {
+                        "name": "Museum - Revive the Plume Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Plume Fossil"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 584,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene City​​​​​",
+                "sections": [
+                    {
+                        "name": "Lass requesting a Cottonee (Trade)",
+                        "ref": "Unova Locations/Nacrene City/Lass requesting a Cottonee (Trade)"
+                    },
+                    {
+                        "name": "Lass requesting a Petilil (Trade)",
+                        "ref": "Unova Locations/Nacrene City/Lass requesting a Petilil (Trade)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 648,
+                        "y": 336
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside",
+                "sections": [
+                    {
+                        "name": "Item near ledge",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item near ledge"
+                    },
+                    {
+                        "name": "Item near railway",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item near railway"
+                    },
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - North item"
+                    },
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South item"
+                    },
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South west item"
+                    },
+                    {
+                        "name": "Hidden item behind dark grass",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Hidden item behind dark grass"
+                    },
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - North hidden item"
+                    },
+                    {
+                        "name": "South east hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/South east hidden item"
+                    },
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South hidden item"
+                    },
+                    {
+                        "name": "Item from challenge rock",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item from challenge rock"
+                    },
+                    {
+                        "name": "TM from woman near Nacrene City",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - TM from woman near Nacrene City"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 8,
+                        "y": 216,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

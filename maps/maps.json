@@ -1,733 +1,733 @@
 [
     {
         "name": "nuvematown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nuvematown.png"
     },
     {
         "name": "accumulatown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/accumulatown.png"
     },
     {
         "name": "striatoncity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/striatoncity.png"
     },
     {
         "name": "nacrenecity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nacrenecity.png"
     },
     {
         "name": "accumulatown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/accumulatown.png"
     },
     {
         "name": "casteliacity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/casteliacity.png"
     },
     {
         "name": "nimbasacity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nimbasacity.png"
     },
     {
         "name": "nimbasacityeast",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nimbasacityeast.png"
     },
     {
         "name": "driftveilcity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/driftveilcity.png"
     },
     {
         "name": "icirruscity",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/icirruscity.png"
     },
     {
         "name": "lacunosatown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/lacunosatown.png"
     },
     {
         "name": "undellatown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/undellatown.png"
     },
     {
         "name": "anvilletown",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/anvilletown.png"
     },
     {
         "name": "route1",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route1.png"
     },
     {
         "name": "route2",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route2.png"
     },
     {
         "name": "route3",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route3.png"
     },
     {
         "name": "route4",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route4.png"
     },
     {
         "name": "route5",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route5.png"
     },
     {
         "name": "route6",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route6.png"
     },
     {
         "name": "route7",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route7.png"
     },
     {
         "name": "route8",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route8.png"
     },
     {
         "name": "route9",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route9.png"
     },
     {
         "name": "route10",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route10.png"
     },
     {
         "name": "route11",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route11.png"
     },
     {
         "name": "route12",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route12.png"
     },
     {
         "name": "route13",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route13.png"
     },
     {
         "name": "route14",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route14.png"
     },
     {
         "name": "route15",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route15.png"
     },
     {
         "name": "route16",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route16.png"
     },
     {
         "name": "routes_17_18_p2lab",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/routes_17_18_p2lab.png"
     },
     {
         "name": "dreamyard",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dreamyard.png"
     },
     {
         "name": "dreamyardbasement",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dreamyardbasement.png"
     },
     {
         "name": "wellspringcave1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/wellspringcave1f.png"
     },
     {
         "name": "wellspringcaveb1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/wellspringcaveb1f.png"
     },
     {
         "name": "pinwheelforestoutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/pinwheelforestoutside.png"
     },
     {
         "name": "pinwheelforest",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/pinwheelforest.png"
     },
     {
         "name": "ruminationfield",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/ruminationfield.png"
     },
     {
         "name": "skyarrowbridge",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/skyarrowbridge.png"
     },
     {
         "name": "libertygarden",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/libertygarden.png"
     },
     {
         "name": "libertygardenlighthouse",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/libertygardenlighthouse.png"
     },
     {
         "name": "desertresort",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/desertresort.png"
     },
     {
         "name": "reliccastle1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastle1f.png"
     },
     {
         "name": "reliccastleb1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb1f.png"
     },
     {
         "name": "reliccastleb2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb2f.png"
     },
     {
         "name": "reliccastleb3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb3f.png"
     },
     {
         "name": "reliccastleb4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb4f.png"
     },
     {
         "name": "reliccastleb5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb5f.png"
     },
     {
         "name": "reliccastleb7f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastleb7f.png"
     },
     {
         "name": "reliccastlemaze",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastlemaze.png"
     },
     {
         "name": "reliccastlevolcaronasroom",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastlevolcaronasroom.png"
     },
     {
         "name": "reliccastletowerb7f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb7f.png"
     },
     {
         "name": "reliccastletowerb6f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb6f.png"
     },
     {
         "name": "reliccastletowerb5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb4-5f.png"
     },
     {
         "name": "reliccastletowerb4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb4-5f.png"
     },
     {
         "name": "reliccastletowerb3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb3f.png"
     },
     {
         "name": "reliccastletowerb2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb1-2f.png"
     },
     {
         "name": "reliccastletowerb1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletowerb1-2f.png"
     },
     {
         "name": "reliccastletower1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/reliccastletower1f.png"
     },
     {
         "name": "lostlornforest",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/lostlornforest.png"
     },
     {
         "name": "coldstorageoutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/coldstorageoutside.png"
     },
     {
         "name": "coldstorage",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/coldstorage.png"
     },
     {
         "name": "coldstoragecontainer",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/coldstoragecontainer.png"
     },
     {
         "name": "mistraltoncave1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/mistraltoncave1f.png"
     },
     {
         "name": "mistraltoncave2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/mistraltoncave2f.png"
     },
     {
         "name": "guidancechamber",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/guidancechamber.png"
     },
     {
         "name": "chargestonecaveoutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/chargestonecaveoutside.png"
     },
     {
         "name": "chargestonecave1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/chargestonecave1f.png"
     },
     {
         "name": "chargestonecaveb1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/chargestonecaveb1f.png"
     },
     {
         "name": "chargestonecaveb2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/chargestonecaveb2f.png"
     },
     {
         "name": "celestialtower1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/celestialtower1f.png"
     },
     {
         "name": "celestialtower2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/celestialtower2f.png"
     },
     {
         "name": "celestialtower3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/celestialtower3f.png"
     },
     {
         "name": "celestialtower4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/celestialtower4f.png"
     },
     {
         "name": "celestialtower5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/celestialtower5f.png"
     },
     {
         "name": "twistmountainoutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountainoutside.png"
     },
     {
         "name": "twistmountainupperlevel",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountainupperlevel.png"
     },
     {
         "name": "twistmountain",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountain.png"
     },
     {
         "name": "twistmountainmiddlelevel",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountainmiddlelevel.png"
     },
     {
         "name": "twistmountainlowerlevel",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountainlowerlevel.png"
     },
     {
         "name": "twistmountainicerockcave",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/twistmountainicerockcave.png"
     },
     {
         "name": "dragonspiraltowerentrance",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltowerentrance.png"
     },
     {
         "name": "dragonspiraltoweroutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltoweroutside.png"
     },
     {
         "name": "dragonspiraltower1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower1f.png"
     },
     {
         "name": "dragonspiraltower2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower2f.png"
     },
     {
         "name": "dragonspiraltower3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower3f.png"
     },
     {
         "name": "dragonspiraltower4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower4f.png"
     },
     {
         "name": "dragonspiraltower5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower5f.png"
     },
     {
         "name": "dragonspiraltower6f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower6f.png"
     },
     {
         "name": "dragonspiraltower7f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltower7f.png"
     },
     {
         "name": "mooroficirrus",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/mooroficirrus.png"
     },
     {
         "name": "tubelinebridge",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/tubelinebridge.png"
     },
     {
         "name": "challengerscave1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/challengerscave1f.png"
     },
     {
         "name": "challengerscaveb1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/challengerscaveb1f.png"
     },
     {
         "name": "challengerscaveb2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/challengerscaveb2f.png"
     },
     {
         "name": "victoryroadoutside",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroadoutside.png"
     },
     {
         "name": "victoryroad1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad1f.png"
     },
     {
         "name": "victoryroad2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad2f.png"
     },
     {
         "name": "victoryroad3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad3f.png"
     },
     {
         "name": "victoryroad4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad4f.png"
     },
     {
         "name": "victoryroad5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad5f.png"
     },
     {
         "name": "victoryroad6f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad6f.png"
     },
     {
         "name": "victoryroad7f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad7f.png"
     },
     {
         "name": "victoryroadtrialchamber",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroadtrialchamber.png"
     },
     {
         "name": "nscastle1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nscastle1f.png"
     },
     {
         "name": "nscastle2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nscastle2f.png"
     },
     {
         "name": "nscastle3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nscastle3f.png"
     },
     {
         "name": "nscastle4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nscastle4f.png"
     },
     {
         "name": "nscastle5f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/nscastle5f.png"
     },
     {
         "name": "nscastlethroneroom",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/throneroom.png"
     },
     {
         "name": "nscastlethroneroom",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/throneroom.png"
     },
     {
         "name": "villagebridge",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/villagebridge.png"
     },
     {
         "name": "giantchasmentrance",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/giantchasmentrance.png"
     },
     {
         "name": "giantchasmcave",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/giantchasmcave.png"
     },
     {
         "name": "giantchasmcrater",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/giantchasmcrater.png"
     },
     {
         "name": "giantchasmdepths",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/giantchasmdepths.png"
     },
     {
         "name": "undellabay",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/undellabay.png"
     },
     {
         "name": "abyssalruins1f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/abyssalruins1f.png"
     },
     {
         "name": "abyssalruins2f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/abyssalruins2f.png"
     },
     {
         "name": "abyssalruins3f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/abyssalruins3f.png"
     },
     {
         "name": "abyssalruins4f",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/abyssalruins4f.png"
     },
     {
         "name": "abundantshrine",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/abundantshrine.png"
     },
     {
         "name": "marvelousbridge",
-        "location_size": 12,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/marvelousbridge.png"
     }
