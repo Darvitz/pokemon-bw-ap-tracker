@@ -126,15 +126,6 @@
                         "undellatown"
                     ]
                 }
-            },
-            {
-                "title": "Anville Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "anvilletown"
-                    ]
-                }
             }
         ]
     },
@@ -209,7 +200,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route36"
+                        "route8"
                     ]
                 }
             },
@@ -286,7 +277,7 @@
                 }
             },
             {
-                "title": "Routes 17-18, P2 Laboratory",
+                "title": "Routes 17-18",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -296,7 +287,7 @@
             }
         ]
     },
-    "dungeons": {
+    "dungeons_a": {
         "type": "tabbed",
         "tabs": [
             {
@@ -387,54 +378,11 @@
                 }
             },
             {
-                "title": "Liberty Garden",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Island",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "libertygarden"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Lighthouse",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "libertygardenlighthouse"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
                 "title": "Desert Resort",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "desertresortentrance"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Inside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "desertresort"
-                                ]
-                            }
-                        }
+                    "type": "map",
+                    "maps": [
+                        "desertresort"
                     ]
                 }
             },
@@ -444,155 +392,171 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Castleside 1F",
+                            "title": "Castleside",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastle1f"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastle1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb2f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B3F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb3f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B4F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb4f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Sand Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb5f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Back Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastleb7f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Maze",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastlemaze"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Volcarona's Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastlevolcaronasroom"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "Castleside B1F",
+                            "title": "Towerside",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castleside B2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb2f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castleside B3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb3f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castleside B4F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb4f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castleside Sand-Filled Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb5f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castleside Back Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastleb7f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Maze",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastlemaze"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Volcarona's Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastlevolcaronasroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside Front Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb7f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B6F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb6f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B5F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb5f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B4F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb4f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb3f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb2f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletowerb1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Towerside 1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "reliccastletower1f"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Front Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb7f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B6F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb6f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B5F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb5f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B4F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb4f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B3F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb3f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb2f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "B1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletower1f"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         }
@@ -684,6 +648,15 @@
                     "type": "tabbed",
                     "tabs": [
                         {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "chargestonecaveoutside"
+                                ]
+                            }
+                        },
+                        {
                             "title": "1F",
                             "content": {
                                 "type": "map",
@@ -765,12 +738,26 @@
                         }
                     ]
                 }
-            },
+            }
+        ]
+    },
+    "dungeons_b": {
+        "type": "tabbed",
+        "tabs": [
             {
                 "title": "Twist Mountain",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountainoutside"
+                                ]
+                            }
+                        },
                         {
                             "title": "Upper Level",
                             "content": {
@@ -967,101 +954,38 @@
                             }
                         },
                         {
-                            "title": "1F Left",
+                            "title": "1F",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "victoryroad1fleftmostroom"
+                                    "victoryroad1f"
                                 ]
                             }
                         },
                         {
-                            "title": "1F Middle",
+                            "title": "2F",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "victoryroad1fmiddleroom"
+                                    "victoryroad2f"
                                 ]
                             }
                         },
                         {
-                            "title": "1F Right",
+                            "title": "3F",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "victoryroad1frightmostroom"
+                                    "victoryroad3f"
                                 ]
                             }
                         },
                         {
-                            "title": "2F Left",
+                            "title": "4F",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "victoryroad2fleftroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "2F Right",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad2frightroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F Left",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad3fleftmostroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F Middle",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad3fmiddleroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F Right",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad3frightmostroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "4F Left",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad4fleftmostroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "4F Middle",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad4fmiddleroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "4F Right",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "victoryroad4frightmostroom"
+                                    "victoryroad4f"
                                 ]
                             }
                         },
@@ -1105,12 +1029,12 @@
                 }
             },
             {
-                "title": "Pokémon League",
+                "title": "N's Castle",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "N's Castle - 1F",
+                            "title": "1F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1119,7 +1043,7 @@
                             }
                         },
                         {
-                            "title": "N's Castle - 2F",
+                            "title": "2F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1128,7 +1052,7 @@
                             }
                         },
                         {
-                            "title": "N's Castle - 3F",
+                            "title": "3F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1137,7 +1061,7 @@
                             }
                         },
                         {
-                            "title": "N's Castle - 4F",
+                            "title": "4F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1146,7 +1070,7 @@
                             }
                         },
                         {
-                            "title": "N's Castle - 5F",
+                            "title": "5F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1155,32 +1079,14 @@
                             }
                         },
                         {
-                            "title": "N's Castle - Throne Room",
+                            "title": "Throne Room",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "nscastlethroneroom"
                                 ]
                             }
-                        },
-                        {
-                            "title": "Pokémon League - Champion's Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "championsroom"
-                                ]
-                            }
                         }
-                    ]
-                }
-            },
-            {
-                "title": "Village Bridge",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "vilagebridge"
                     ]
                 }
             },
@@ -1287,6 +1193,82 @@
                     "type": "map",
                     "maps": [
                         "abundantshrine"
+                    ]
+                }
+            }
+        ]
+    },
+    "others": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Skyarrow Bridge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "skyarrowbridge"
+                    ]
+                }
+            },
+            {
+                "title": "Tubeline Bridge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "tubelinebridge"
+                    ]
+                }
+            },
+            {
+                "title": "Village Bridge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "villagebridge"
+                    ]
+                }
+            },
+            {
+                "title": "Marvelous Bridge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "marvelousbridge"
+                    ]
+                }
+            },
+            {
+                "title": "Anville Town",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "anvilletown"
+                    ]
+                }
+            },
+            {
+                "title": "Liberty Garden",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Island",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "libertygarden"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lighthouse",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "libertygardenlighthouse"
+                                ]
+                            }
+                        }
                     ]
                 }
             }

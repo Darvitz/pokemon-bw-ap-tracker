@@ -42,12 +42,32 @@
                 }
             },
             {
-                "title": "Dungeons",
+                "title": "Dungeons A",
                 "content": {
                     "type": "dock",
                     "content": {
                         "type": "layout",
-                        "key": "dungeons"
+                        "key": "dungeons_a"
+                    }
+                }
+            },
+            {
+                "title": "Dungeons B",
+                "content": {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "dungeons_b"
+                    }
+                }
+            },
+            {
+                "title": "Others",
+                "content": {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "others"
                     }
                 }
             }
