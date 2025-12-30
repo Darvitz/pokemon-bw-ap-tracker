@@ -986,6 +986,16 @@
                         ]
                     },
                     {
+                        "name": "Help the Day-Care man (Event)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "helpdaycareman"
+                    },
+                    {
                         "name": "Item from ace trainer exiting battle subway",
                         "chest_unopened_img": "images/locations/acetrainerf_vsrecorder.png",
                         "chest_opened_img": "images/locations/acetrainerf_vsrecorder_grayscale.png",

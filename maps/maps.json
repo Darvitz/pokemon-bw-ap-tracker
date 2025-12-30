@@ -13,38 +13,32 @@
     },
     {
         "name": "striatoncity",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/striatoncity.png"
     },
     {
         "name": "nacrenecity",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nacrenecity.png"
     },
     {
-        "name": "accumulatown",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/accumulatown.png"
-    },
-    {
         "name": "casteliacity",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/casteliacity.png"
     },
     {
         "name": "nimbasacity",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/nimbasacity.png"
     },
     {
         "name": "nimbasacityeast",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nimbasacityeast.png"
     },
     {

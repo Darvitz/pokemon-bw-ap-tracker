@@ -381,7 +381,7 @@
                 ]
             },
             {
-                "name": "Striaton City​​​​",
+                "name": "Encounters",
                 "sections": [
                     {
                         "name": "Surf Encounters",
@@ -405,7 +405,8 @@
                         "map": "striatoncity",
                         "x": 8,
                         "y": 8,
-                        "size": 22,
+                        "size": 28,
+                        "location_border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -446,7 +447,7 @@
                     {
                         "map": "striatoncity",
                         "x": 816,
-                        "y": 504,
+                        "y": 500,
                         "shape": "diamond"
                     }
                 ]
@@ -644,12 +645,12 @@
                     {
                         "map": "striatoncity",
                         "x": 248,
-                        "y": 8,
+                        "y": 12,
                         "shape": "diamond"
                     },
                     {
                         "map": "nacrenecity",
-                        "x": 1016,
+                        "x": 1012,
                         "y": 376,
                         "shape": "diamond"
                     }
@@ -906,9 +907,779 @@
                 "map_locations": [
                     {
                         "map": "nacrenecity",
-                        "x": 8,
+                        "x": 12,
                         "y": 216,
                         "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Thumb Pier",
+                "sections": [
+                    {
+                        "name": "Item from scientist",
+                        "ref": "Unova Locations/Castelia City/Thumb Pier - Item from scientist"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 1032,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Battle Company",
+                "sections": [
+                    {
+                        "name": "47F - Item in lower-left corner",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item in lower-left corner"
+                    },
+                    {
+                        "name": "47F - Item from clerk #1",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #1"
+                    },
+                    {
+                        "name": "47F - Item from clerk #2",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #2"
+                    },
+                    {
+                        "name": "47F - Item from clerk #3",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #3"
+                    },
+                    {
+                        "name": "47F - Item from clerk #4",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #4"
+                    },
+                    {
+                        "name": "47F - Item from clerk #5",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #5"
+                    },
+                    {
+                        "name": "47F - Item from clerk #6",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #6"
+                    },
+                    {
+                        "name": "47F - Item from scientist",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from scientist"
+                    },
+                    {
+                        "name": "55F - Center item",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Center item"
+                    },
+                    {
+                        "name": "55F - Item from President Geoff",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Item from President Geoff"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 586,
+                        "y": 750
+                    }
+                ]
+            },
+            {
+                "name": "Castelia Street",
+                "sections": [
+                    {
+                        "name": "TM from hiker in left building",
+                        "ref": "Unova Locations/Castelia City/Castelia Street - TM from hiker in left building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 696,
+                        "y": 582
+                    }
+                ]
+            },
+            {
+                "name": "Narrow Street",
+                "sections": [
+                    {
+                        "name": "Item from manager in Café Sonata",
+                        "ref": "Unova Locations/Castelia City/Narrow Street - Item from manager in Café Sonata"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 492,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Narrow Street​",
+                "sections": [
+                    {
+                        "name": "TM from man in black behind dumpster",
+                        "ref": "Unova Locations/Castelia City/Narrow Street - TM from man in black behind dumpster"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 442,
+                        "y": 636
+                    }
+                ]
+            },
+            {
+                "name": "Gym Street",
+                "sections": [
+                    {
+                        "name": "Item in Plasma hideout",
+                        "ref": "Unova Locations/Castelia City/Gym Street - Item in Plasma hideout"
+                    },
+                    {
+                        "name": "Item from Iris in Plasma hideout",
+                        "ref": "Unova Locations/Castelia City/Gym Street - Item from Iris in Plasma hideout"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 318,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Central Plaza",
+                "sections": [
+                    {
+                        "name": "Item from dancers",
+                        "ref": "Unova Locations/Castelia City/Central Plaza - Item from dancers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 528,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Central Plaza​",
+                "sections": [
+                    {
+                        "name": "Show all TMs and HMs to the scientist (Event)",
+                        "ref": "Unova Locations/Castelia City/Central Plaza - Show all TMs and HMs to the scientist (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 442,
+                        "y": 414
+                    }
+                ]
+            },
+            {
+                "name": "Northern Street",
+                "sections": [
+                    {
+                        "name": "Item from scientist for seeing 20 species",
+                        "ref": "Unova Locations/Castelia City/Northern Street - Item from scientist for seeing 20 species"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 564,
+                        "y": 186
+                    }
+                ]
+            },
+            {
+                "name": "Northern Street​",
+                "sections": [
+                    {
+                        "name": "TM from school kid in first right building",
+                        "ref": "Unova Locations/Castelia City/Northern Street - TM from school kid in first right building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 564,
+                        "y": 218
+                    }
+                ]
+            },
+            {
+                "name": "Northern Street​​",
+                "sections": [
+                    {
+                        "name": "TM from Mr. Lock in left building",
+                        "ref": "Unova Locations/Castelia City/Northern Street - TM from Mr. Lock in left building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 490,
+                        "y": 214
+                    }
+                ]
+            },
+            {
+                "name": "Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Castelia City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Castelia City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Castelia City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 336,
+                        "y": 616
+                    }
+                ]
+            },
+            {
+                "name": "Castelia Street​",
+                "sections": [
+                    {
+                        "name": "Zorua (Gift)",
+                        "ref": "Unova Locations/Castelia City/Castelia Street - Zorua (Gift)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 796,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Skyarrow Bridge",
+                "sections": [
+                    {
+                        "name": "Item from hiker in gate",
+                        "ref": "Unova Locations/Skyarrow Bridge/Item from hiker in gate"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 900,
+                        "y": 378,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Liberty Garden",
+                "sections": [
+                    {
+                        "name": "Hidden item in trash can",
+                        "ref": "Unova Locations/Liberty Garden/Hidden item in trash can"
+                    },
+                    {
+                        "name": "Lighthouse Basement - Victini (Static)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Static)"
+                    },
+                    {
+                        "name": "Lighthouse Basement - Victini (Event)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 184,
+                        "y": 820,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 4",
+                "sections": [
+                    {
+                        "name": "South - Item north east of parasol lady",
+                        "ref": "Unova Locations/Route 4/South - Item north east of parasol lady"
+                    },
+                    {
+                        "name": "South - Item south west of parasol lady",
+                        "ref": "Unova Locations/Route 4/South - Item south west of parasol lady"
+                    },
+                    {
+                        "name": "South - North west item",
+                        "ref": "Unova Locations/Route 4/South - North west item"
+                    },
+                    {
+                        "name": "South - Central hidden item",
+                        "ref": "Unova Locations/Route 4/South - Central hidden item"
+                    },
+                    {
+                        "name": "South - Hidden item near buildings #1",
+                        "ref": "Unova Locations/Route 4/South - Hidden item near buildings #1"
+                    },
+                    {
+                        "name": "South - Hidden item near buildings #2",
+                        "ref": "Unova Locations/Route 4/South - Hidden item near buildings #2"
+                    },
+                    {
+                        "name": "South - South west hidden item",
+                        "ref": "Unova Locations/Route 4/South - South west hidden item"
+                    },
+                    {
+                        "name": "North - North east item in sandy area",
+                        "ref": "Unova Locations/Route 4/North - North east item in sandy area"
+                    },
+                    {
+                        "name": "North - South east item in sandy area",
+                        "ref": "Unova Locations/Route 4/North - South east item in sandy area"
+                    },
+                    {
+                        "name": "North - South west item in sandy area",
+                        "ref": "Unova Locations/Route 4/North - South west item in sandy area"
+                    },
+                    {
+                        "name": "North - North east hidden item",
+                        "ref": "Unova Locations/Route 4/North - North east hidden item"
+                    },
+                    {
+                        "name": "North - TM from worker in northern building",
+                        "ref": "Unova Locations/Route 4/North - TM from worker in northern building"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #1",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #1"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #2",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #2"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #3",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #3"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #4",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #4"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #5",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #5"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #6",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #6"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #7",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #7"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #8",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #8"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #9",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #9"
+                    },
+                    {
+                        "name": "North - Item from Professor Juniper #10",
+                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #10"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 4/Land Encounters"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 4/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 4/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 4/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 4/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 528,
+                        "y": 98,
+						"shape": "diamond"
+                    },
+                    {
+                        "map": "nimbasacity",
+                        "x": 744,
+                        "y": 1008,
+						"shape": "diamond"
+                    },
+                ]
+            },
+            {
+                "name": "Nimbasa City",
+                "sections": [
+                    {
+                        "name": "Item from Day-Care man",
+                        "ref": "Unova Locations/Nimbasa City/Item from Day-Care man"
+                    },
+                    {
+                        "name": "Help the Day-Care man (Event)",
+                        "ref": "Unova Locations/Nimbasa City/Help the Day-Care man (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 744,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City​",
+                "sections": [
+                    {
+                        "name": "Item from ace trainer exiting battle subway",
+                        "ref": "Unova Locations/Nimbasa City/Item from ace trainer exiting battle subway"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 616,
+                        "y": 704
+                    }
+                ]
+            },
+            {
+                "name": "East Gate",
+                "sections": [
+                    {
+                        "name": "Item from man in eastern gate",
+                        "ref": "Unova Locations/Nimbasa City/Item from man in eastern gate"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 968,
+                        "y": 358
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City​​",
+                "sections": [
+                    {
+                        "name": "Item from ace trainer in another western building",
+                        "ref": "Unova Locations/Nimbasa City/Item from ace trainer in another western building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 360,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City​​​",
+                "sections": [
+                    {
+                        "name": "Item from socialite in western building",
+                        "ref": "Unova Locations/Nimbasa City/Item from socialite in western building"
+                    },
+                    {
+                        "name": "TM from ace trainer in western building",
+                        "ref": "Unova Locations/Nimbasa City/TM from ace trainer in western building"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 248,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Musical Theater",
+                "sections": [
+                    {
+                        "name": "Item from owner",
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - Item from owner"
+                    },
+                    {
+                        "name": "TM from lady",
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - TM from lady"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 792,
+                        "y": 288
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City East",
+                "sections": [
+                    {
+                        "name": "Item near ferris wheel",
+                        "ref": "Unova Locations/Nimbasa City/East - Item near ferris wheel"
+                    },
+                    {
+                        "name": "Hidden item near ferris wheel",
+                        "ref": "Unova Locations/Nimbasa City/East - Hidden item near ferris wheel"
+                    },
+                    {
+                        "name": "Gym - Guide item",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Gym - Badge reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "Gym - TM reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 928,
+                        "y": 744,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Anville Town",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Anville Town/North hidden item"
+                    },
+                    {
+                        "name": "Item from depot agent on first visit",
+                        "ref": "Unova Locations/Anville Town/Item from depot agent on first visit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 616,
+                        "y": 656,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 5",
+                "sections": [
+                    {
+                        "name": "Item near ledge",
+                        "ref": "Unova Locations/Route 5/Item near ledge"
+                    },
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Route 5/North east item"
+                    },
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Route 5/North west item"
+                    },
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Route 5/South west item"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 5/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 5/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 5/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 16,
+                        "y": 358,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 16",
+                "sections": [
+                    {
+                        "name": "Item near dark grass",
+                        "ref": "Unova Locations/Route 16/Item near dark grass"
+                    },
+                    {
+                        "name": "Item near eastern gate",
+                        "ref": "Unova Locations/Route 16/Item near eastern gate"
+                    },
+                    {
+                        "name": "Item near Lostlorn Forest entrance",
+                        "ref": "Unova Locations/Route 16/Item near Lostlorn Forest entrance"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 16/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 16/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 16/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacity",
+                        "x": 1008,
+                        "y": 358,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City East​",
+                "sections": [
+                    {
+                        "name": "Item near ferris wheel",
+                        "ref": "Unova Locations/Nimbasa City/East - Item near ferris wheel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacityeast",
+                        "x": 676,
+                        "y": 386
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City East​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near ferris wheel",
+                        "ref": "Unova Locations/Nimbasa City/East - Hidden item near ferris wheel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacityeast",
+                        "x": 852,
+                        "y": 386
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacityeast",
+                        "x": 514,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Nimbasa City​​​​",
+                "sections": [
+                    {
+                        "name": "Item from Day-Care man",
+                        "ref": "Unova Locations/Nimbasa City/Item from Day-Care man"
+                    },
+                    {
+                        "name": "Help the Day-Care man (Event)",
+                        "ref": "Unova Locations/Nimbasa City/Help the Day-Care man (Event)"
+                    },
+                    {
+                        "name": "Item from ace trainer exiting battle subway",
+                        "ref": "Unova Locations/Nimbasa City/Item from ace trainer exiting battle subway"
+                    },
+                    {
+                        "name": "Item from man in eastern gate",
+                        "ref": "Unova Locations/Nimbasa City/Item from man in eastern gate"
+                    },
+                    {
+                        "name": "Item from ace trainer in another western building",
+                        "ref": "Unova Locations/Nimbasa City/Item from ace trainer in another western building"
+                    },
+                    {
+                        "name": "Item from socialite in western building",
+                        "ref": "Unova Locations/Nimbasa City/Item from socialite in western building"
+                    },
+                    {
+                        "name": "TM from ace trainer in western building",
+                        "ref": "Unova Locations/Nimbasa City/TM from ace trainer in western building"
+                    },
+                    {
+                        "name": "Musical Theater - Item from owner",
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - Item from owner"
+                    },
+                    {
+                        "name": "Musical Theater - TM from lady",
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - TM from lady"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacityeast",
+                        "x": 104,
+                        "y": 208,
+						"shape": "diamond"
                     }
                 ]
             }
