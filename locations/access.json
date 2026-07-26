@@ -121,8 +121,12 @@
     "access_rules": [
       "@Route 3 North Access,dark_areas_wellspring_cave_1f_false",
       "@Route 3 North Access,^$flash,dark_areas_wellspring_cave_1f_true",
-	    "@Challenger's Cave Access,$can_rock_smash, add_rocksmash_true",
-	    "@Challenger's Cave Access,$can_rock_smash, add_rocksmash_musharna"
+	    "@Challenger's Cave Access,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
+	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_true",
+	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
+	    "@Challenger's Cave Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
+	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_true",
+	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_true"
     ]
   },
   {
@@ -521,10 +525,12 @@
     "access_rules": [
       "@Route 9 Access,redchain,^$flash,dark_areas_challengers_true",
       "@Route 9 Access,redchain,dark_areas_challengers_false",
-	    "@Wellspring Cave 1F Access,^$flash, $can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
-	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_false",
-	    "@Wellspring Cave 1F Access,^$flash, $can_rock_smash,add_rocksmash_musharna, dark_areas_challengers_true",
-	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_false"
+	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
+	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_true",
+	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
+	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
+	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_true",
+	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_true"
     ]
   },
   {
