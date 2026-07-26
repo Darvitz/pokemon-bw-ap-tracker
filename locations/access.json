@@ -148,6 +148,13 @@
     ]
   },
   {
+    "name": "Nacrene Gym Access",
+    "access_rules": [
+      "@Nacrene City Access,dark_areas_nacrene_gym_false",
+      "@Nacrene City Access,^$flash,dark_areas_nacrene_gym_true"
+    ]
+  },
+  {
     "name": "Pinwheel Forest Outside Access",
     "access_rules": [
       "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_false",
