@@ -142,6 +142,7 @@ function onClear(slot_data)
     local extra_cut_trees_found = false
     local move_strength_boulders_found = false
     local dark_areas_found = false
+    local starting_town_found = false
 
     local dark_area_list = {
         ["Striaton Gym"] = Tracker:FindObjectForCode("dark_areas_striaton_gym"),
@@ -177,6 +178,35 @@ function onClear(slot_data)
     }
 
     for k, v in pairs(slot_data) do
+        if k == "starting_town" then
+            starting_town_found = true
+            local item = Tracker:FindObjectForCode("starting_town")
+            if v == "Nuvema Town" then
+                item.CurrentStage = 0
+            elseif v == "Accumula Town" then
+                item.CurrentStage = 1
+            elseif v == "Striaton City" then
+                item.CurrentStage = 2
+            elseif v == "Nacrene City" then
+                item.CurrentStage = 3
+            elseif v == "Castelia City" then
+                item.CurrentStage = 4
+            elseif v == "Nimbasa City" then
+                item.CurrentStage = 5
+            elseif v == "Driftveil City" then
+                item.CurrentStage = 6
+            elseif v == "Mistralton City" then
+                item.CurrentStage = 7
+            elseif v == "Icirrus City" then
+                item.CurrentStage = 8
+            elseif v == "Opelucid City" then
+                item.CurrentStage = 9
+            elseif v == "Lacunosa Town" then
+                item.CurrentStage = 10
+            elseif v == "Undella Town" then
+                item.CurrentStage = 11
+            end
+        end
         if k == "dark_areas" then
             dark_areas_found = true
 
@@ -338,6 +368,10 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
     end
+
+	if not starting_town_found then
+		Tracker:FindObjectForCode("starting_town").CurrentStage = 0
+	end
 
 	if not hm_with_badges_found then
 		Tracker:FindObjectForCode("hm01cut").CurrentStage = 1

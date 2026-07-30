@@ -138,11 +138,14 @@ function evolve_area(area)
 end
 
 function evolve_move()
-    local move_relearner = Tracker:FindObjectForCode("@Mistralton City Access").AccessibilityLevel
+    local move_relearner_mistralton = Tracker:FindObjectForCode("@Mistralton City Access").AccessibilityLevel
+    local move_relearner_nuvema = Tracker:FindObjectForCode("@Nuvema Town Access").AccessibilityLevel
     if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
+    elseif has("starting_town_nuvema") then
+        return math.max(move_relearner_nuvema, AccessibilityLevel.SequenceBreak)
     else
-        return math.max(move_relearner, AccessibilityLevel.SequenceBreak)
+        return math.max(move_relearner_mistralton, AccessibilityLevel.SequenceBreak)
     end
 end
 

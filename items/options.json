@@ -3974,5 +3974,86 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Extra Logic - Starting Town",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Starting Town - NUVEMA TOWN",
+                "img": "/images/settings/starting_town/nuvema_town.png",
+                "codes": "starting_town,starting_town_nuvema",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - ACCUMULA TOWN",
+                "img": "/images/settings/starting_town/accumula_town.png",
+                "codes": "starting_town,starting_town_accumula",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - STRIATON CITY",
+                "img": "/images/settings/starting_town/striaton_city.png",
+                "codes": "starting_town,starting_town_striaton",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - NACRENE CITY",
+                "img": "/images/settings/starting_town/nacrene_city.png",
+                "codes": "starting_town,starting_town_nacrene",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - CASTELIA CITY",
+                "img": "/images/settings/starting_town/castelia_city.png",
+                "codes": "starting_town,starting_town_castelia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - NIMBASA CITY",
+                "img": "/images/settings/starting_town/nimbasa_city.png",
+                "codes": "starting_town,starting_town_nimbasa",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - DRIFTVEIL CITY",
+                "img": "/images/settings/starting_town/driftveil_city.png",
+                "codes": "starting_town,starting_town_driftveil",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - MISTRALTON CITY",
+                "img": "/images/settings/starting_town/mistralton_city.png",
+                "codes": "starting_town,starting_town_mistralton",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - ICIRRUS CITY",
+                "img": "/images/settings/starting_town/icirrus_city.png",
+                "codes": "starting_town,starting_town_icirrus",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - OPELUCID CITY",
+                "img": "/images/settings/starting_town/opelucid_city.png",
+                "codes": "starting_town,starting_town_opelucid",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - LACUNOSA TOWN",
+                "img": "/images/settings/starting_town/lacunosa_town.png",
+                "codes": "starting_town,starting_town_lacunosa",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Town - UNDELLA TOWN",
+                "img": "/images/settings/starting_town/undella_town.png",
+                "codes": "starting_town,starting_town_undella",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

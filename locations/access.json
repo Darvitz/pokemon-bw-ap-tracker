@@ -14,7 +14,8 @@
   {
     "name": "Nuvema Town Access",
     "access_rules": [
-	  ""
+      "starting_town_nuvema",
+      "@Route 1 Access"
     ]
   },
   {
@@ -49,6 +50,7 @@
   {
     "name": "Accumula Town Access",
     "access_rules": [
+      "starting_town_accumula",
       "@Route 1 Access",
       "@Route 2 Access"
     ]
@@ -63,6 +65,7 @@
   {
     "name": "Striaton City Access",
     "access_rules": [
+      "starting_town_striaton",
       "@Route 2 Access",
       "@Route 3 North Access,parcel",
       "@Striaton Gym Access",
@@ -147,6 +150,7 @@
   {
     "name": "Nacrene City Access",
     "access_rules": [
+      "starting_town_nacrene",
       "@Route 3 South Access",
       "@Pinwheel Forest Outside Access"
     ]
@@ -233,6 +237,7 @@
   {
     "name": "Castelia City Access",
     "access_rules": [
+      "starting_town_castelia",
       "@Skyarrow Bridge Access",
       "@Route 4 South Access",
       "@Liberty Garden Access,libertypass"
@@ -298,6 +303,7 @@
   {
     "name": "Nimbasa City Access",
     "access_rules": [
+      "starting_town_nimbasa",
       "@Route 4 North Access",
 	    "@Anville Town Access",
       "@Route 5 Access",
@@ -335,6 +341,7 @@
   {
     "name": "Driftveil City Access",
     "access_rules": [
+      "starting_town_driftveil",
       "@Driftveil Drawbridge Access",
       "@Cold Storage Access",
       "@Route 6 Access",
@@ -397,6 +404,7 @@
   {
     "name": "Mistralton City Access",
     "access_rules": [
+      "starting_town_mistralton",
       "@Chargestone Cave Access",
       "@Route 7 Access",
       "@Mistralton Gym Access",
@@ -437,6 +445,7 @@
   {
     "name": "Icirrus City Access",
     "access_rules": [
+      "starting_town_icirrus",
       "@Twist Mountain Access",
       "@Icirrus Gym Access",
       "@Dragonspiral Tower Entrance Access",
@@ -536,6 +545,7 @@
   {
     "name": "Opelucid City Access",
     "access_rules": [
+      "starting_town_opelucid",
       "@Opelucid Gym Access",
       "@Route 9 Access",
       "@Route 10 Access",
@@ -611,6 +621,7 @@
   {
     "name": "Lacunosa Town Access",
     "access_rules": [
+      "starting_town_lacunosa",
       "@Route 12 Access",
       "@Route 13 Access"
     ]
@@ -643,6 +654,7 @@
   {
     "name": "Undella Town Access",
     "access_rules": [
+      "starting_town_undella",
       "@Route 13 Access,$rock_smash",
       "@Undella Bay Access",
       "@Route 14 Access",
