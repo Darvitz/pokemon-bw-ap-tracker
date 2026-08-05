@@ -13413,7 +13413,7 @@
                         "chest_unopened_img": "images/events/landorus.png",
                         "chest_opened_img": "images/events/landorus_grayscale.png",
                         "access_rules": [
-                            "caught_641,caught_642,defeatghetsis,^$static_encounter"
+                            "caught_641,caught_642,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
