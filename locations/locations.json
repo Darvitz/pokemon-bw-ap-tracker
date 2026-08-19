@@ -8635,7 +8635,8 @@
                         ],
                         "visibility_rules": [
                             "goal_cobalion,show_items",
-							"goal_legendary_hunt,show_items"
+							"goal_legendary_hunt,show_items",
+                            "goal_pokemon_master,show_items"
                         ],
                         "hosted_item": "catchdefeatcobalion"
                     },
