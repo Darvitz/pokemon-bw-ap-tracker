@@ -204,7 +204,11 @@ function searchReset()
     Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = 0
     Tracker:FindObjectForCode("search_ID_result").CurrentStage = 0
     Tracker:FindObjectForCode("search_reset").CurrentStage = 0
-    Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    end
 end
 
 function static_encounter()
