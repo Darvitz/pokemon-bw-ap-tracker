@@ -457,7 +457,7 @@ LOCATION_MAPPING = {
   [330100] = {"@Unova Locations/Nacrene City/Item from girl in west building"},
   [343900] = {"@Unova Locations/Nacrene City/Item from waitress in Café Warehouse"},
   [339900] = {"@Unova Locations/Nacrene City/Item from Bianca"},
-  [340500] = {"@Unova Locations/Nacrene City/Item from Lenora after Relic Castle", "@Unova Locations/Nacrene City/Item from Lenora after Relic Castle​"},
+  [340500] = {"@Unova Locations/Nacrene City/Item from Lenora after Relic Castle", "@Unova Locations/Nacrene City/Item from Lenora after Relic Castle\u{200B}", "@Unova Locations/Nacrene City/Item from Lenora after Relic Castle\u{200B}\u{200B}"},
   [311900] = {"@Unova Locations/Nacrene City/Gym - Gym guide item"},
   [344000] = {"@Unova Locations/Pinwheel Forest/Outside - Item from challenge rock"},
   [444600] = {"@Unova Locations/Pinwheel Forest/Inside - Item from ranger Forrest"},
@@ -602,7 +602,7 @@ LOCATION_MAPPING = {
   [400374] = {"@Unova Locations/Driftveil City/Gym - Badge reward"},
   [400375] = {"@Unova Locations/Mistralton City/Gym - Badge reward"},
   [400376] = {"@Unova Locations/Icirrus City/Gym - Badge reward"},
-  [400377] = {"@Unova Locations/Opelucid City/Gym - Badge reward", "@Unova Locations/Opelucid City/Gym - Badge reward​"},
+  [400377] = {"@Unova Locations/Opelucid City/Gym - Badge reward", "@Unova Locations/Opelucid City/Gym - Badge reward\u{200B}"},
   [517400] = {"@Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 25 species"},
   [517500] = {"@Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 60 species"},
   [517600] = {"@Unova Locations/Nuvema Town/TM from Professor Juniper for seeing 115 species"},
@@ -637,7 +637,7 @@ LOCATION_MAPPING = {
   [541800] = {"@Unova Locations/Chargestone Cave/Outside - TM from Clay"},
   [537500] = {"@Unova Locations/Mistralton City/Gym - TM reward"},
   [537600] = {"@Unova Locations/Icirrus City/Gym - TM reward"},
-  [537700] = {"@Unova Locations/Opelucid City/Gym - TM reward", "@Unova Locations/Opelucid City/Gym - TM reward​"},
+  [537700] = {"@Unova Locations/Opelucid City/Gym - TM reward", "@Unova Locations/Opelucid City/Gym - TM reward\u{200B}"},
   
 -- Dexsanity Locations
   [600001] = {"@Z_Dexsanity/Bulbasaur/Catch a Bulbasaur"},

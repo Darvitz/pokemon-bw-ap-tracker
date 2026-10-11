@@ -45,23 +45,22 @@
                             ],
                             [
                                 "parcel",
-                                "lootsack",
-                                "dragonskull",
+                                "lootsackdragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "lightstone",
+                                "dynamicstone",
                                 "oaksletter",
+                                "gbsounds",
                                 "bluecard"
                             ],
                             [
                                 "basementkey",
                                 "lockcapsule",
-                                "ssticketlibertypass",
-                                "explorerkit",
+                                "libertypass",
+                                "explorerkitsilverwing",
                                 "redchain",
                                 "gram",
-                                "dowsingmchn",
-                                "superrod"
+                                "dowsingmchn"
                             ]
                         ]
                     }
@@ -119,19 +118,18 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "lightstone",
+                                "dynamicstone",
                                 "oaksletter",
                                 "bluecard"
                             ],
                             [
                                 "basementkey",
                                 "lockcapsule",
-                                "ssticketlibertypass",
+                                "libertypass",
                                 "explorerkit",
                                 "redchain",
                                 "gram",
-                                "dowsingmchn",
-                                "superrod"
+                                "dowsingmchn"
                             ]
                         ]
                     }

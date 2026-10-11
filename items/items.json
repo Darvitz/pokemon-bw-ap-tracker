@@ -287,6 +287,12 @@
         "img": "/images/items/roadblocks/dark_stone.png",
         "codes": "darkstone, light-darkstone"
     },
+    {
+        "name": "Light/Dark Stone",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/light-dark_stone.png",
+        "codes": "dynamicstone,light-darkstone"
+    },
 	{
         "name": "Blue Card",
         "type": "toggle",

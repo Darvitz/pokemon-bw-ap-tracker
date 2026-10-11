@@ -71,16 +71,8 @@ function toggle_keyitemgrid()
         suffix = suffix .. "_w"
 	end
 
-    if has("add_ssticket_true") then
-        suffix = suffix .. "_ticket"
-    end
-
-    if has("add_rocksmash_true") or has("add_rocksmash_musharna") then
-        suffix = suffix .. "_rocksmash"
-    end
-
-    if has("add_pass_true") then
-        suffix = suffix .. "_pass"
+    if has("dynamic_version") then
+        suffix = suffix .. "_dynamic"
     end
 
     Tracker:AddLayouts("layouts/items/items"..suffix..".json")

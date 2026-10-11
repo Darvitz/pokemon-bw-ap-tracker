@@ -477,7 +477,7 @@
                         "chest_unopened_img": "images/locations/bianca_dowsingmchn.png",
                         "chest_opened_img": "images/locations/cleared/bianca_dowsingmchn_cleared.png",
                         "access_rules": [
-                            "@Nacrene City Access"
+                            "@Nacrene City Access,@Nacrene Gym Access,defeatlenora"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -491,7 +491,7 @@
                             "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,show_items"
+                            "not_dynamic,pokemon_black,show_items"
                         ]
                     },
                     {
@@ -502,7 +502,18 @@
                             "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
                         ],
                         "visibility_rules": [
-                            "pokemon_white,show_items"
+                            "not_dynamic,pokemon_white,show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle\u200b\u200b",
+                        "chest_unopened_img": "images/locations/lenora_light-darkstone.png",
+                        "chest_opened_img": "images/locations/cleared/lenora_light-darkstone_cleared.png",
+                        "access_rules": [
+                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
+                        ],
+                        "visibility_rules": [
+                            "dynamic_version,show_items"
                         ]
                     },
                     {
