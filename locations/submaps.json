@@ -6317,8 +6317,8 @@
                 "map_locations": [
                     {
                         "map": "route13_se",
-                        "x": 24,
-                        "y": 168
+                        "x": 152,
+                        "y": 193
                     }
                 ]
             },
@@ -6333,8 +6333,8 @@
                 "map_locations": [
                     {
                         "map": "route13_se",
-                        "x": 152,
-                        "y": 193
+                        "x": 24,
+                        "y": 168
                     }
                 ]
             },
@@ -8691,10 +8691,10 @@
                 "map_locations": [
                     {
                         "map": "pinwheelforest",
-                        "x": 32,
-                        "y": 100,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -10464,7 +10464,7 @@
                     {
                         "map": "coldstorageoutside",
                         "x": 678,
-                        "y": 91
+                        "y": 104
                     }
                 ]
             },

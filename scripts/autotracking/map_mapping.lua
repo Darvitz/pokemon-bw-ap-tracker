@@ -207,12 +207,22 @@ MAP_SPLIT_MAPPING = {
   },
   [107] = {
     [2] = {
-      [8] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity",
-      [9] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity",
-      [10] = {"Cities", "Mistralton City", "Runway", "South"}, --107: "mistraltoncity",
+      [8] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity_b",
+      [9] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity_b",
+      [10] = {"Cities", "Mistralton City", "Runway", "South"}, --107: "mistraltoncity_b",
     },
     [3] = {
-      [9] = {"Cities", "Mistralton City", "City"}, --107: "mistraltoncity",
+      [9] = {"Cities", "Mistralton City", "City"}, --107: "mistraltoncity_b",
+    }
+  },
+  [107 + 1024] = {
+    [2] = {
+      [8] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity_w",
+      [9] = {"Cities", "Mistralton City", "Runway", "North"}, --107: "mistraltoncity_w",
+      [10] = {"Cities", "Mistralton City", "Runway", "South"}, --107: "mistraltoncity_w",
+    },
+    [3] = {
+      [9] = {"Cities", "Mistralton City", "City"}, --107: "mistraltoncity_w",
     }
   },
   [113] = {
